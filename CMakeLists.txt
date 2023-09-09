@@ -30,5 +30,6 @@ add_executable(HomeWorks
         #        special_multiples.cpp
         #        special_multiples2.cpp
         #        min_of_values.cpp
-        find_nos.cpp
+        #        find_nos.cpp
+        reverse_number.cpp
 )
