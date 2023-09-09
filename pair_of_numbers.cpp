@@ -7,9 +7,9 @@ int main() {
     cin >> N >> M >> SUM;
     int cnt = 0;
     for (int i = 1; i < N; ++i) {
-        for (int j = 1; j < M; ++j) {
-            if (i + j == SUM) cnt++;
-        }
+        int j = SUM - i; //i+j=SUM
+        if (1 <= j && j <= M)
+            cnt++;
     }
     cout << cnt << "\n";
     return 0;
