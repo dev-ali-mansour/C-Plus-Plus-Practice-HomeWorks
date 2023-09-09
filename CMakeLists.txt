@@ -33,5 +33,6 @@ add_executable(HomeWorks
         #        find_nos.cpp
         #        reverse_number.cpp
         #        multiplication_table.cpp
-        special_sum.cpp
+        #        special_sum.cpp
+        pair_of_numbers.cpp
 )
