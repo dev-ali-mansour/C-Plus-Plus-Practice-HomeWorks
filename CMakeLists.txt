@@ -34,5 +34,6 @@ add_executable(HomeWorks
         #        reverse_number.cpp
         #        multiplication_table.cpp
         #        special_sum.cpp
-        pair_of_numbers.cpp
+        #        pair_of_numbers.cpp
+        fibonacci.cpp
 )
