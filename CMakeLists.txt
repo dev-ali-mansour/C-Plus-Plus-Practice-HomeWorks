@@ -36,5 +36,6 @@ add_executable(HomeWorks
         #        special_sum.cpp
         #        pair_of_numbers.cpp
         #        fibonacci.cpp
-        printing_x.cpp
+        #        printing_x.cpp
+        special_pairs.cpp
 )
