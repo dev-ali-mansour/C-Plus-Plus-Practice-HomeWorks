@@ -40,5 +40,6 @@ add_executable(HomeWorks
         #        special_pairs.cpp
         #        find_all_quadruples.cpp
         #        is_prime.cpp
-        print_primes.cpp
+        #        print_primes.cpp
+        digits_sum_in_range.cpp
 )
