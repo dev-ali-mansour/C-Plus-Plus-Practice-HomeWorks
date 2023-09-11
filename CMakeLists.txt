@@ -38,5 +38,6 @@ add_executable(HomeWorks
         #        fibonacci.cpp
         #        printing_x.cpp
         #        special_pairs.cpp
-        find_all_quadruples.cpp
+        #        find_all_quadruples.cpp
+        is_prime.cpp
 )
