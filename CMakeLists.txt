@@ -41,5 +41,6 @@ add_executable(HomeWorks
         #        find_all_quadruples.cpp
         #        is_prime.cpp
         #        print_primes.cpp
-        digits_sum_in_range.cpp
+        #        digits_sum_in_range.cpp
+        Array1D/is_increasing.cpp
 )
