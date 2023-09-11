@@ -39,5 +39,6 @@ add_executable(HomeWorks
         #        printing_x.cpp
         #        special_pairs.cpp
         #        find_all_quadruples.cpp
-        is_prime.cpp
+        #        is_prime.cpp
+        print_primes.cpp
 )
