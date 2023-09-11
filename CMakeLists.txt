@@ -37,5 +37,6 @@ add_executable(HomeWorks
         #        pair_of_numbers.cpp
         #        fibonacci.cpp
         #        printing_x.cpp
-        special_pairs.cpp
+        #        special_pairs.cpp
+        find_all_quadruples.cpp
 )
