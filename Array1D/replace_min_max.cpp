@@ -10,13 +10,11 @@ int main() {
         cin >> numbers[i];
     }
 
-    int min_idx = 0, max_idx = 0;
+    int min = 10000, max = -1;
     for (int i = 0; i < N; ++i) {
-        if (numbers[min_idx] > numbers[i]) min_idx = i;
-        if (numbers[max_idx] < numbers[i]) max_idx = i;
+        if (min > numbers[i]) min = numbers[i];
+        if (max < numbers[i]) max = numbers[i];
     }
-
-    int min = numbers[min_idx], max = numbers[max_idx];
 
     for (int i = 0; i < N; ++i) {
         if (numbers[i] == min)numbers[i] = max;
