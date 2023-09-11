@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int number;
     cin >> number;
-    if (number == 1) cout << "NO";
+    if (number <= 1) cout << "NO";
     else {
         bool is_prime = true;
 
