@@ -45,5 +45,6 @@ add_executable(HomeWorks
         #        Array1D/is_increasing.cpp
         #        Array1D/replace_min_max.cpp
         #        Array1D/unique_numbers_ordered_list.cpp
-        Array1D/palindrome.cpp
+        #        Array1D/palindrome.cpp
+        Array1D/smallest_pair.cpp
 )
