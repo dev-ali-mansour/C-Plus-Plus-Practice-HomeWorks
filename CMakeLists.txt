@@ -48,5 +48,6 @@ add_executable(HomeWorks
         #        Array1D/palindrome.cpp
         #        Array1D/smallest_pair.cpp
         #        Array1D/find_3_min_values.cpp
-        Array1D/search_for_number.cpp
+        #        Array1D/search_for_number.cpp
+        Array1D/find_most_frequent_number.cpp
 )
