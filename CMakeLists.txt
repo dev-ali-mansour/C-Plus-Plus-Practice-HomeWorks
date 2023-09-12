@@ -43,5 +43,6 @@ add_executable(HomeWorks
         #        print_primes.cpp
         #        digits_sum_in_range.cpp
         #        Array1D/is_increasing.cpp
-        Array1D/replace_min_max.cpp
+        #        Array1D/replace_min_max.cpp
+        Array1D/unique_numbers_ordered_list.cpp
 )
