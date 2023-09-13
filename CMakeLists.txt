@@ -52,5 +52,6 @@ add_executable(HomeWorks
         #        Array1D/find_most_frequent_number.cpp
         #        Array1D/digit_frequency.cpp
         #        Array1D/unique_numbers_of_unordered_list.cpp
-        Array1D/sorting_numbers.cpp
+#        Array1D/sorting_numbers.cpp
+        Array1D/recaman's_sequence.cpp
 )
