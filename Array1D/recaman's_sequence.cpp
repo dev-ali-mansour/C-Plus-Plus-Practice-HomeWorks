@@ -4,29 +4,24 @@ using namespace std;
 
 int main() {
     const int N = 201;
-    int idx;
+    int idx, sequence[N];
+    int occurrence[N * 10] = {0};
+
     cin >> idx;
 
-    int sequence[200];
     sequence[0] = 0;
-    int last_idx = 0;
+    occurrence[0] = 1;
+
     for (int i = 1; i <= idx; ++i) {
-        int value = sequence[last_idx] - last_idx - 1;
-        bool isInValid = false;
-        for (int j = 0; j <= last_idx; ++j) {
-            if (value < 0 || value == sequence[j]) isInValid = true;
-        }
-        if (!isInValid) {
-            last_idx++;
-            sequence[last_idx] = value;
-        } else {
-            value = sequence[last_idx] + last_idx + 1;
-            last_idx++;
-            sequence[last_idx] = value;
-        }
+        int value = sequence[i - 1] - (i - 1) - 1;
+        if (value < 0 || occurrence[value])
+            value = sequence[i - 1] + (i - 1) + 1;
+
+        sequence[i] = value;
+        occurrence[value] = 1;
     }
 
-    cout << sequence[last_idx];
+    cout << sequence[idx];
 
     return 0;
 }
