@@ -59,5 +59,6 @@ add_executable(HomeWorks
 #        CharArray/is_prefix.cpp
 #        CharArray/is_suffix.cpp
 #        CharArray/is_substring.cpp
-        CharArray/is_subsequence.cpp
+#        CharArray/is_subsequence.cpp
+        CharArray/convert_to_number.cpp
 )
