@@ -58,5 +58,6 @@ add_executable(HomeWorks
 #        CharArray/letters_frequency.cpp
 #        CharArray/is_prefix.cpp
 #        CharArray/is_suffix.cpp
-        CharArray/is_substring.cpp
+#        CharArray/is_substring.cpp
+        CharArray/is_subsequence.cpp
 )
