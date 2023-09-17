@@ -56,5 +56,6 @@ add_executable(HomeWorks
 #        Array1D/recaman's_sequence.cpp
 #        Array1D/fixed_sliding_window.cpp
 #        CharArray/letters_frequency.cpp
-        CharArray/is_prefix.cpp
+#        CharArray/is_prefix.cpp
+        CharArray/is_suffix.cpp
 )
