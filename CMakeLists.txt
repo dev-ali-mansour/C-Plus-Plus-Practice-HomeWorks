@@ -54,5 +54,6 @@ add_executable(HomeWorks
         #        Array1D/unique_numbers_of_unordered_list.cpp
 #        Array1D/sorting_numbers.cpp
 #        Array1D/recaman's_sequence.cpp
-        Array1D/fixed_sliding_window.cpp
+#        Array1D/fixed_sliding_window.cpp
+        CharArray/letters_frequency.cpp
 )
