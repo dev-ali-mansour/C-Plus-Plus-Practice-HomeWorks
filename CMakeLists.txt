@@ -57,5 +57,6 @@ add_executable(HomeWorks
 #        Array1D/fixed_sliding_window.cpp
 #        CharArray/letters_frequency.cpp
 #        CharArray/is_prefix.cpp
-        CharArray/is_suffix.cpp
+#        CharArray/is_suffix.cpp
+        CharArray/is_substring.cpp
 )

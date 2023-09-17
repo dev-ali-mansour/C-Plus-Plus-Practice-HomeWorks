@@ -12,7 +12,7 @@ int main() {
     }
 
     int start = input.size() - str.size();
-    for (int i = 0; i < str.size(); ++i) {
+    for (int i = 0; i < (int) str.size(); ++i) {
         if (str[i] != input[i + start]) {
             cout << "NO\n";
             return 0;

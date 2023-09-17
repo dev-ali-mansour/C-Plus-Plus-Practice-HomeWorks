@@ -11,7 +11,7 @@ int main() {
         return 0;
     }
 
-    for (int i = 0; i < str.size(); ++i) {
+    for (int i = 0; i < (int) str.size(); ++i) {
         if (input[i] != str[i]) {
             cout << "NO\n";
             return 0;
