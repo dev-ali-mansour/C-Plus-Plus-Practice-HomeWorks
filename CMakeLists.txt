@@ -62,5 +62,6 @@ add_executable(HomeWorks
 #        CharArray/is_subsequence.cpp
 #        CharArray/convert_to_number.cpp
 #        CharArray/grouping.cpp
-        CharArray/compressing.cpp
+#        CharArray/compressing.cpp
+        CharArray/compare_strings.cpp
 )
