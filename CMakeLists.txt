@@ -64,5 +64,6 @@ add_executable(HomeWorks
 #        CharArray/grouping.cpp
 #        CharArray/compressing.cpp
 #        CharArray/compare_strings.cpp
-        CharArray/add_5555.cpp
+#        CharArray/add_5555.cpp
+        CharArray/application.cpp
 )
