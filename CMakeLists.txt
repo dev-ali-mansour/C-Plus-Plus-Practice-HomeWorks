@@ -63,5 +63,6 @@ add_executable(HomeWorks
 #        CharArray/convert_to_number.cpp
 #        CharArray/grouping.cpp
 #        CharArray/compressing.cpp
-        CharArray/compare_strings.cpp
+#        CharArray/compare_strings.cpp
+        CharArray/add_5555.cpp
 )
