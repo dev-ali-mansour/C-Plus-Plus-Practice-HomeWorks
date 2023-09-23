@@ -67,5 +67,6 @@ add_executable(HomeWorks
 #        CharArray/add_5555.cpp
 #        CharArray/application.cpp
 #        MultiDimensionalArray/smaller_row.cpp
-        MultiDimensionalArray/triangular_matrix.cpp
+#        MultiDimensionalArray/triangular_matrix.cpp
+        MultiDimensionalArray/transpose.cpp
 )
