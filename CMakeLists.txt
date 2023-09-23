@@ -66,5 +66,6 @@ add_executable(HomeWorks
 #        CharArray/compare_strings.cpp
 #        CharArray/add_5555.cpp
 #        CharArray/application.cpp
-        MultiDimensionalArray/smaller_row.cpp
+#        MultiDimensionalArray/smaller_row.cpp
+        MultiDimensionalArray/triangular_matrix.cpp
 )
