@@ -52,22 +52,23 @@ add_executable(HomeWorks
         #        Array1D/find_most_frequent_number.cpp
         #        Array1D/digit_frequency.cpp
         #        Array1D/unique_numbers_of_unordered_list.cpp
-#        Array1D/sorting_numbers.cpp
-#        Array1D/recaman's_sequence.cpp
-#        Array1D/fixed_sliding_window.cpp
-#        CharArray/letters_frequency.cpp
-#        CharArray/is_prefix.cpp
-#        CharArray/is_suffix.cpp
-#        CharArray/is_substring.cpp
-#        CharArray/is_subsequence.cpp
-#        CharArray/convert_to_number.cpp
-#        CharArray/grouping.cpp
-#        CharArray/compressing.cpp
-#        CharArray/compare_strings.cpp
-#        CharArray/add_5555.cpp
-#        CharArray/application.cpp
-#        MultiDimensionalArray/smaller_row.cpp
-#        MultiDimensionalArray/triangular_matrix.cpp
-#        MultiDimensionalArray/transpose.cpp
-        MultiDimensionalArray/how_many_primes.cpp
+        #        Array1D/sorting_numbers.cpp
+        #        Array1D/recaman's_sequence.cpp
+        #        Array1D/fixed_sliding_window.cpp
+        #        CharArray/letters_frequency.cpp
+        #        CharArray/is_prefix.cpp
+        #        CharArray/is_suffix.cpp
+        #        CharArray/is_substring.cpp
+        #        CharArray/is_subsequence.cpp
+        #        CharArray/convert_to_number.cpp
+        #        CharArray/grouping.cpp
+        #        CharArray/compressing.cpp
+        #        CharArray/compare_strings.cpp
+        #        CharArray/add_5555.cpp
+        #        CharArray/application.cpp
+        #        MultiDimensionalArray/smaller_row.cpp
+        #        MultiDimensionalArray/triangular_matrix.cpp
+        #        MultiDimensionalArray/transpose.cpp
+        #        MultiDimensionalArray/how_many_primes.cpp
+        MultiDimensionalArray/find_mountains.cpp
 )
