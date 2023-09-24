@@ -68,5 +68,6 @@ add_executable(HomeWorks
 #        CharArray/application.cpp
 #        MultiDimensionalArray/smaller_row.cpp
 #        MultiDimensionalArray/triangular_matrix.cpp
-        MultiDimensionalArray/transpose.cpp
+#        MultiDimensionalArray/transpose.cpp
+        MultiDimensionalArray/how_many_primes.cpp
 )
