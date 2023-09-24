@@ -8,35 +8,20 @@ int main() {
     cin >> n >> m >> k;
 
     // Direction from 1 to 4: up, right, down, left
+    int rd[4] = {-1, 0, 1, 0};
+    int cd[4] = {0, 1, 0, -1};
     while (k--) {
         int dir, steps;
         cin >> dir >> steps;
-        if (dir < 1 || dir > 4) {
-            cout << "Invalid direction!\n";
-            return 0;
-        }
+        --dir;
 
-        if (dir == 1) {
-            int mv = r - steps;
-            if (mv < 0 || mv > n)
-                r = n + mv;
-            else r = mv;
-        } else if (dir == 2) {
-            int mv = c + steps;
-            if (mv > m)
-                c = mv % m;
-            else c = mv;
-        } else if (dir == 3) {
-            int mv = r + steps;
-            if (mv > n)
-                r = mv % n;
-            else r = mv;
-        } else {
-            int mv = c - steps;
-            if (mv < 0 || mv > m)
-                c = m + mv;
-            else c = mv;
-        }
+        r = (r + rd[dir] * steps) % n;
+        c = (c + cd[dir] * steps) % m;
+
+        if (r < 0)
+            r += n;
+        if (c < 0)
+            c += m;
 
         cout << "(" << r << ", " << c << ")\n";
     }
