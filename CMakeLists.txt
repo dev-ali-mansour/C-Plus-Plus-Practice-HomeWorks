@@ -70,5 +70,6 @@ add_executable(HomeWorks
         #        MultiDimensionalArray/triangular_matrix.cpp
         #        MultiDimensionalArray/transpose.cpp
         #        MultiDimensionalArray/how_many_primes.cpp
-        MultiDimensionalArray/find_mountains.cpp
+        #        MultiDimensionalArray/find_mountains.cpp
+        MultiDimensionalArray/active_robot.cpp
 )
