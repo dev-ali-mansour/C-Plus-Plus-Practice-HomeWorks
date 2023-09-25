@@ -14,12 +14,12 @@ int main() {
         }
     }
 
-    int depth, rows, cols, choice;
+    int D, R, C, choice;
     int d, r, c, idx;
-    cin >> depth >> rows >> cols >> choice;
+    cin >> D >> R >> C >> choice;
 
-    int Db = rows * cols;
-    int Rb = cols;
+    int Db = R * C;
+    int Rb = C;
 
     if (choice == 1) {
         cin >> d >> r >> c;
