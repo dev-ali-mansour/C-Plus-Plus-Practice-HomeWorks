@@ -76,5 +76,6 @@ add_executable(HomeWorks
         #        MultiDimensionalArray/tic_tac_toe.cpp
         #        MultiDimensionalArray/enhanced-tic-tac-toe.cpp
         #        functions/sum1-to-n.cpp
-        functions/absolute.cpp
+        #        functions/absolute.cpp
+        functions/maximum-of-2-numbers.cpp
 )
