@@ -74,5 +74,6 @@ add_executable(HomeWorks
         #        MultiDimensionalArray/active_robot.cpp
         #        MultiDimensionalArray/flatten_3d_array.cpp
         #        MultiDimensionalArray/tic_tac_toe.cpp
-        MultiDimensionalArray/enhanced-tic-tac-toe.cpp
+        #        MultiDimensionalArray/enhanced-tic-tac-toe.cpp
+        functions/sum1-to-n.cpp
 )
