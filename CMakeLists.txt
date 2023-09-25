@@ -75,5 +75,6 @@ add_executable(HomeWorks
         #        MultiDimensionalArray/flatten_3d_array.cpp
         #        MultiDimensionalArray/tic_tac_toe.cpp
         #        MultiDimensionalArray/enhanced-tic-tac-toe.cpp
-        functions/sum1-to-n.cpp
+        #        functions/sum1-to-n.cpp
+        functions/absolute.cpp
 )
