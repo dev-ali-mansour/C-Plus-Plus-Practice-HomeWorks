@@ -85,5 +85,6 @@ add_executable(HomeWorks
         #        functions/function-overloading.cpp
         #        functions/pass-by-reference.cpp
         #        functions/pass-array-by-reference-is-default.cpp
-        functions/is-lower-string.cpp
+        #        functions/is-lower-string.cpp
+        functions/built-in-functions.cpp
 )
