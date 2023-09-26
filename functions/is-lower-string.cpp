@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool is_lower(string str) {
+bool is_lower(const string &str) {
     for (int i = 0; i < (int) str.size(); ++i) {
         bool lower = 'a' <= str[i] && str[i] <= 'z';
         if (!lower)
