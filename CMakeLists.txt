@@ -82,6 +82,7 @@ add_executable(HomeWorks
         #        functions/function-without-return-value.cpp
         #        functions/function-with-default-value.cpp
         #        functions/parameter-casting.cpp
-#        functions/function-overloading.cpp
-        functions/pass-by-reference.cpp
+        #        functions/function-overloading.cpp
+        #        functions/pass-by-reference.cpp
+        functions/pass-array-by-reference-is-default.cpp
 )
