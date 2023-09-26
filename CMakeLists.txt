@@ -79,5 +79,6 @@ add_executable(HomeWorks
         #        functions/absolute.cpp
         #        functions/maximum-of-2-numbers.cpp
         #        functions/max_of_absolute_2_numbers.cpp
-        functions/function-without-return-value.cpp
+        #        functions/function-without-return-value.cpp
+        functions/function-with-default-value.cpp
 )
