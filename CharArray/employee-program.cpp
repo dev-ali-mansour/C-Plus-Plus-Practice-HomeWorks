@@ -58,7 +58,7 @@ int main() {
             cin >> name >> salary;
             bool is_found = false;
             for (int i = 0; i < added; ++i) {
-                if (ages[i] != 1 && names[i] == name) {
+                if (ages[i] != -1 && names[i] == name) {
                     salaries[i] = salary;
                     is_found = true;
                     break;
