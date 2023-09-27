@@ -65,7 +65,7 @@ add_executable(HomeWorks
         #        CharArray/compressing.cpp
         #        CharArray/compare_strings.cpp
         #        CharArray/add_5555.cpp
-        CharArray/employee-program.cpp
+        #        CharArray/employee-program.cpp
         #        MultiDimensionalArray/smaller_row.cpp
         #        MultiDimensionalArray/triangular_matrix.cpp
         #        MultiDimensionalArray/transpose.cpp
@@ -87,4 +87,5 @@ add_executable(HomeWorks
         #        functions/pass-array-by-reference-is-default.cpp
         #        functions/is-lower-string.cpp
         #        functions/built-in-functions.cpp
+        functions/employee-program-v2.cpp
 )
