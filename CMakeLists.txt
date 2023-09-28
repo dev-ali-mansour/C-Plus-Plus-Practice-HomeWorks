@@ -91,5 +91,6 @@ add_executable(HomeWorks
         #        functions/max-of-6-numbers.cpp
         #        functions/reverse_string.cpp
         #        functions/simple-calculator.cpp
-        functions/is-palindrome-array.cpp
+        #        functions/is-palindrome-array.cpp
+        functions/set-powers.cpp
 )
