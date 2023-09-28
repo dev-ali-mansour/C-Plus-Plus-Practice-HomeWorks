@@ -88,5 +88,6 @@ add_executable(HomeWorks
         #        functions/is-lower-string.cpp
         #        functions/built-in-functions.cpp
         #        functions/employee-program-v2.cpp
-                functions/max-of-6-numbers.cpp
+        #        functions/max-of-6-numbers.cpp
+        functions/reverse_string.cpp
 )
