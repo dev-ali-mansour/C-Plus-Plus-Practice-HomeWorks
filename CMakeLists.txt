@@ -92,5 +92,6 @@ add_executable(HomeWorks
         #        functions/reverse_string.cpp
         #        functions/simple-calculator.cpp
         #        functions/is-palindrome-array.cpp
-        functions/set-powers.cpp
+        #        functions/set-powers.cpp
+        functions/get-nth-prime.cpp
 )
