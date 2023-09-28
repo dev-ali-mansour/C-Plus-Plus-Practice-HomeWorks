@@ -96,5 +96,6 @@ add_executable(HomeWorks
         #        functions/get-nth-prime.cpp
         #        functions/replace-substring.cpp
         #        RecursiveFunctions/factorial.cpp
-        RecursiveFunctions/print-triangle.cpp
+        #        RecursiveFunctions/print-triangle.cpp
+        RecursiveFunctions/print-reversed-triangle.cpp
 )
