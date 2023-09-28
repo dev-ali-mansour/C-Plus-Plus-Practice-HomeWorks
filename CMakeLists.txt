@@ -90,5 +90,6 @@ add_executable(HomeWorks
         #        functions/employee-program-v2.cpp
         #        functions/max-of-6-numbers.cpp
         #        functions/reverse_string.cpp
-        functions/simple-calculator.cpp
+        #        functions/simple-calculator.cpp
+        functions/is-palindrome-array.cpp
 )
