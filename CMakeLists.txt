@@ -93,5 +93,6 @@ add_executable(HomeWorks
         #        functions/simple-calculator.cpp
         #        functions/is-palindrome-array.cpp
         #        functions/set-powers.cpp
-        functions/get-nth-prime.cpp
+        #        functions/get-nth-prime.cpp
+        functions/replace-substring.cpp
 )
