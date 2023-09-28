@@ -97,5 +97,6 @@ add_executable(HomeWorks
         #        functions/replace-substring.cpp
         #        RecursiveFunctions/factorial.cpp
         #        RecursiveFunctions/print-triangle.cpp
-        RecursiveFunctions/print-reversed-triangle.cpp
+        #        RecursiveFunctions/print-reversed-triangle.cpp
+        RecursiveFunctions/print-3n-plus-1-sequence.cpp
 )
