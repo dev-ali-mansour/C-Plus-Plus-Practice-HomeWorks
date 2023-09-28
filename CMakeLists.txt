@@ -87,5 +87,6 @@ add_executable(HomeWorks
         #        functions/pass-array-by-reference-is-default.cpp
         #        functions/is-lower-string.cpp
         #        functions/built-in-functions.cpp
-        functions/employee-program-v2.cpp
+        #        functions/employee-program-v2.cpp
+                functions/max-of-6-numbers.cpp
 )
