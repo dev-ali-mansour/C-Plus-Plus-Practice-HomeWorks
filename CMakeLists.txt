@@ -100,5 +100,6 @@ add_executable(HomeWorks
         #        RecursiveFunctions/print-reversed-triangle.cpp
         #        RecursiveFunctions/print-3n-plus-1-sequence.cpp
         #        RecursiveFunctions/Length-3n-plus-1.cpp
-        RecursiveFunctions/Power.cpp
+        #        RecursiveFunctions/Power.cpp
+        RecursiveFunctions/Array-Maximum.cpp
 )
