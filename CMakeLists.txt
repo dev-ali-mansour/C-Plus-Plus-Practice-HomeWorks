@@ -105,5 +105,6 @@ add_executable(HomeWorks
         #        RecursiveFunctions/Array-Sum.cpp
         #        RecursiveFunctions/Array-Average.cpp
         #        RecursiveFunctions/Array-Increment.cpp
-        RecursiveFunctions/Array-Accumulation.cpp
+        #        RecursiveFunctions/Array-Accumulation.cpp
+        RecursiveFunctions/Left-Max.cpp
 )
