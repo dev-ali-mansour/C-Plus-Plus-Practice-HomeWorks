@@ -99,5 +99,6 @@ add_executable(HomeWorks
         #        RecursiveFunctions/print-triangle.cpp
         #        RecursiveFunctions/print-reversed-triangle.cpp
         #        RecursiveFunctions/print-3n-plus-1-sequence.cpp
-        RecursiveFunctions/Length-3n-plus-1.cpp
+        #        RecursiveFunctions/Length-3n-plus-1.cpp
+        RecursiveFunctions/Power.cpp
 )
