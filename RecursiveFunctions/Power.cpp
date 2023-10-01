@@ -9,6 +9,8 @@ int my_pow(int value, int power = 2) {
 }
 
 int main() {
+    cout << my_pow(7) << endl;
+    cout << my_pow(7, 0) << endl;
     cout << my_pow(7, 3) << endl;
     return 0;
 }
