@@ -113,5 +113,6 @@ add_executable(HomeWorks
         #        RecursiveFunctions/Is-Palindrome.cpp
         #        RecursiveFunctions/Is-Prefix.cpp
         #        RecursiveFunctions/Trace.cpp
-        RecursiveFunctions/Count-Primes.cpp
+        #        RecursiveFunctions/Count-Primes.cpp
+        RecursiveFunctions/Grid-Sum.cpp
 )
