@@ -111,5 +111,6 @@ add_executable(HomeWorks
         #        RecursiveFunctions/Suffix-Sum.cpp
         #        RecursiveFunctions/Prefix-Sum.cpp
         #        RecursiveFunctions/Is-Palindrome.cpp
-        RecursiveFunctions/Is-Prefix.cpp
+        #        RecursiveFunctions/Is-Prefix.cpp
+        RecursiveFunctions/Trace.cpp
 )
