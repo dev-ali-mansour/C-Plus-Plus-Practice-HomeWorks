@@ -114,5 +114,6 @@ add_executable(HomeWorks
         #        RecursiveFunctions/Is-Prefix.cpp
         #        RecursiveFunctions/Trace.cpp
         #        RecursiveFunctions/Count-Primes.cpp
-        RecursiveFunctions/Grid-Sum.cpp
+        #        RecursiveFunctions/Grid-Sum.cpp
+        RecursiveFunctions/Fibonacci.cpp
 )
