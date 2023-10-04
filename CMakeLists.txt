@@ -118,5 +118,6 @@ add_executable(HomeWorks
         #        RecursiveFunctions/Fibonacci.cpp
         #        Projects/Hospital-System.cpp
         #        Struct/Employee.cpp
-        Struct/Ordering-Array.cpp
+        #        Struct/Ordering-Array.cpp
+        Struct/Structure-Of_Structure.cpp
 )
