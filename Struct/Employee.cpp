@@ -24,21 +24,6 @@ struct employee {
     void set_age(int new_age) {
         age = new_age;
     }
-
-    bool compare_name(employee &a, employee &b) {
-        return a.name < b.name; //Smaller name first
-    }
-
-    bool compare_salary(employee &a, employee &b) {
-        return a.salary > b.salary; // bigger salary first
-    }
-
-    bool compare_name_salary(employee &a, employee &b) {
-        // smaller name first, if tie smaller salary
-        if (a.name != b.name)
-            return a.name < b.name;
-        return a.salary < b.salary;
-    }
 };
 
 const int MAX = 10000;
@@ -50,6 +35,22 @@ void print_employees() {
     for (int i = 0; i < added; ++i) {
         employees_arr[i].print_employee();
     }
+}
+
+
+bool compare_name(employee &a, employee &b) {
+    return a.name < b.name; //Smaller name first
+}
+
+bool compare_salary(employee &a, employee &b) {
+    return a.salary > b.salary; // bigger salary first
+}
+
+bool compare_name_salary(employee &a, employee &b) {
+    // smaller name first, if tie smaller salary
+    if (a.name != b.name)
+        return a.name < b.name;
+    return a.salary < b.salary;
 }
 
 int main() {
