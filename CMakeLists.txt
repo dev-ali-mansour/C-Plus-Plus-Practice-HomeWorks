@@ -117,5 +117,6 @@ add_executable(HomeWorks
         #        RecursiveFunctions/Grid-Sum.cpp
         #        RecursiveFunctions/Fibonacci.cpp
         #        Projects/Hospital-System.cpp
-        Struct/Employee.cpp
+        #        Struct/Employee.cpp
+        Struct/Ordering-Array.cpp
 )
