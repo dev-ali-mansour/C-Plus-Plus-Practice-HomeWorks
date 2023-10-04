@@ -119,5 +119,6 @@ add_executable(HomeWorks
         #        Projects/Hospital-System.cpp
         #        Struct/Employee.cpp
         #        Struct/Ordering-Array.cpp
-        Struct/Structure-Of_Structure.cpp
+        #        Struct/Structure-Of_Structure.cpp
+        Struct/Constructor.cpp
 )
