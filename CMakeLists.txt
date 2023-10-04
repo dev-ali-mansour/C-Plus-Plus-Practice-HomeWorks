@@ -115,5 +115,6 @@ add_executable(HomeWorks
         #        RecursiveFunctions/Trace.cpp
         #        RecursiveFunctions/Count-Primes.cpp
         #        RecursiveFunctions/Grid-Sum.cpp
-        RecursiveFunctions/Fibonacci.cpp
+        #        RecursiveFunctions/Fibonacci.cpp
+        Projects/Hospital-System.cpp
 )
