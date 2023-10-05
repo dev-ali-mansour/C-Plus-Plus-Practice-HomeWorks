@@ -120,5 +120,6 @@ add_executable(HomeWorks
         #        Struct/Employee.cpp
         #        Struct/Ordering-Array.cpp
         #        Struct/Structure-Of_Structure.cpp
-        Struct/Constructor.cpp
+        #        Struct/Constructor.cpp
+        Struct/Queue.cpp
 )
