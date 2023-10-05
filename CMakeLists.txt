@@ -121,5 +121,6 @@ add_executable(HomeWorks
         #        Struct/Ordering-Array.cpp
         #        Struct/Structure-Of_Structure.cpp
         #        Struct/Constructor.cpp
-        Struct/Queue.cpp
+        #        Struct/Queue.cpp
+        Projects/Hospital-System-Using-Struct.cpp
 )
