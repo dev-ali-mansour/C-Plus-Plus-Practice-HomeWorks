@@ -73,19 +73,6 @@ struct hospital_queue {
 
 };
 
-int menu() {
-    int choice;
-    cout << "\nEnter your choice\n";
-    cout << ADD << ")Add new patient\n";
-    cout << PRINT << ")Print all patients\n";
-    cout << GET << ")Get next patient\n";
-    cout << EXIT << ")Exit\n";
-    cin >> choice;
-
-    return choice;
-}
-
-
 struct hospital_system {
     hospital_queue queues[MAX_SPECIALIZATION];
 
@@ -114,6 +101,17 @@ struct hospital_system {
         }
     }
 
+    int menu() {
+        int choice;
+        cout << "\nEnter your choice\n";
+        cout << ADD << ")Add new patient\n";
+        cout << PRINT << ")Print all patients\n";
+        cout << GET << ")Get next patient\n";
+        cout << EXIT << ")Exit\n";
+        cin >> choice;
+
+        return choice;
+    }
 
     bool add_patient() {
         int spec, st;
