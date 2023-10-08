@@ -133,5 +133,6 @@ add_executable(HomeWorks
         #        Class-Template-Specialization.cpp
         #        STL/Queue.cpp
         #        STL/Priority-Queue.cpp
-        STL/Deque.cpp
+        #        STL/Deque.cpp
+        STL/Is-Palindrome-Using-Dequeue.cpp
 )
