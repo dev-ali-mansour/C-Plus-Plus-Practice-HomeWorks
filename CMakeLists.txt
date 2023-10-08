@@ -129,6 +129,7 @@ add_executable(HomeWorks
         #        Templates/Static-Variable.cpp
         #        Templates/Template-Function-Specialization.cpp
         #        Templates/Class-Templates.cpp
-        Templates/Templates-Non-Type-Parameters.cpp
-        Class-Template-Specialization.cpp
+        #        Templates/Templates-Non-Type-Parameters.cpp
+        #        Class-Template-Specialization.cpp
+        STL/Queue.cpp
 )
