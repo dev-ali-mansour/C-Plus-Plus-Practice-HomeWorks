@@ -128,5 +128,6 @@ add_executable(HomeWorks
         #        Templates/Template-With-Multiple-Types.cpp
         #        Templates/Static-Variable.cpp
         #        Templates/Template-Function-Specialization.cpp
-        Templates/Class-Templates.cpp
+        #        Templates/Class-Templates.cpp
+        Templates/Templates-Non-Type-Parameters.cpp
 )
