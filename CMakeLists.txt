@@ -125,5 +125,6 @@ add_executable(HomeWorks
         #        Projects/Hospital-System-Using-Struct.cpp
         #        Projects/Library-System.cpp
         #        Templates/Generic-Programming-Using-Templates.cpp
-        Templates/Template-With-Multiple-Types.cpp
+        #        Templates/Template-With-Multiple-Types.cpp
+        Templates/Static-Variable.cpp
 )
