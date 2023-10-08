@@ -130,4 +130,5 @@ add_executable(HomeWorks
         #        Templates/Template-Function-Specialization.cpp
         #        Templates/Class-Templates.cpp
         Templates/Templates-Non-Type-Parameters.cpp
+        Class-Template-Specialization.cpp
 )
