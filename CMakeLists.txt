@@ -132,5 +132,6 @@ add_executable(HomeWorks
         #        Templates/Templates-Non-Type-Parameters.cpp
         #        Class-Template-Specialization.cpp
         #        STL/Queue.cpp
-        STL/Priority-Queue.cpp
+        #        STL/Priority-Queue.cpp
+        STL/Deque.cpp
 )
