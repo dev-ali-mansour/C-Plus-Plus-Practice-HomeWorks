@@ -146,5 +146,6 @@ add_executable(HomeWorks
         #        STL/CPlusPlus11-Iterating-Style.cpp
         #        STL/Vector.cpp
         #        STL/2D-Vector.cpp
-        STL/String.cpp
+        #        STL/String.cpp
+        STL/Max-Sum-Of-Vectors.cpp
 )
