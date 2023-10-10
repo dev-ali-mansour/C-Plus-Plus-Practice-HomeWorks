@@ -148,5 +148,6 @@ add_executable(HomeWorks
         #        STL/2D-Vector.cpp
         #        STL/String.cpp
         #        STL/Max-Sum-Of-Vectors.cpp
-        STL/Sort-Algorithm.cpp
+        #        STL/Sort-Algorithm.cpp
+        STL/Reverse-Algorithm.cpp
 )
