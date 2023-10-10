@@ -145,5 +145,6 @@ add_executable(HomeWorks
         #        STL/Auto.cpp
         #        STL/CPlusPlus11-Iterating-Style.cpp
         #        STL/Vector.cpp
-        STL/2D-Vector.cpp
+        #        STL/2D-Vector.cpp
+        STL/String.cpp
 )
