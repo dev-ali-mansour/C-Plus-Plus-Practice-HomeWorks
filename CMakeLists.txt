@@ -141,6 +141,7 @@ add_executable(HomeWorks
         #        STL/Tuple.cpp
         #        STL/Deque-With-Iterator.cpp
         #        STL/Iterator-Arithmetic.cpp
-        STL/String-Iterator.cpp
-        STL/Auto.cpp
+        #        STL/String-Iterator.cpp
+        #        STL/Auto.cpp
+        STL/CPlusPlus11-Iterating-Style.cpp
 )
