@@ -1,4 +1,5 @@
 #include <iostream>
+#include <set>
 
 using namespace std;
 
@@ -32,3 +33,16 @@ struct employee {
         return tie(num1, str, num2) < tie(rhs.num1, rhs.str, rhs.num2);
     }
 };
+
+int main() {
+    set<employee> s;
+    s.insert(employee(10, 35, "mostufa"));
+    s.insert(employee(7, 15, "ali"));
+    s.insert(employee(10, 17, "ziad"));
+    s.insert(employee(10, 20, "mostufa"));
+
+    for (auto emp: s)
+        cout << emp.num1 << " " << emp.str << " " << emp.num2 << endl;
+
+    return 0;
+}
