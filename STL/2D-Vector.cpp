@@ -51,9 +51,23 @@ void test2() {
     print(v2d);
 }
 
+void test3() {
+    // 3D Array using vector
+    // (5,7) 2d array with initial value 3
+    vector<vector<vector<int>>> v3d(5, vector<vector<int>>(6, vector<int>(7,3)));
+
+    // 5 x 6 x 7
+    cout << v3d.size() << " " << v3d[0].size() << " " << v3d[0][0].size() << endl;
+
+    for (int i = 0; i <v3d.size(); ++i) {
+        print(v3d[i]);
+    }
+}
+
 int main() {
     test1();
     test2();
+    test3();
 
     return 0;
 }
