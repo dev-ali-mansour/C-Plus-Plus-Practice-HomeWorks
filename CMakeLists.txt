@@ -137,5 +137,6 @@ add_executable(HomeWorks
         #        STL/Is-Palindrome-Using-Dequeue.cpp
         #        Stack.cpp
         #        STL/Sum-Of-Last-K-Numbers.cpp
-        STL/Pair.cpp
+        #        STL/Pair.cpp
+        STL/Tuple.cpp
 )
