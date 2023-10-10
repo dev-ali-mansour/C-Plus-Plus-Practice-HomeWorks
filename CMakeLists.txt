@@ -152,4 +152,5 @@ add_executable(HomeWorks
         #        STL/Reverse-Algorithm.cpp
         #        STL/Set.cpp
         STL/MultiSet.cpp
+        STL/Struct-Comparison.cpp
 )
