@@ -44,6 +44,20 @@ void print_front(deque<int> &q) {
     cout << endl;
 }
 
+void print_front_const(deque<int> &q) {
+    cout << "Queue elements (front): ";
+
+//    deque<int>::const_iterator it = q.cbegin();
+    auto it = q.cbegin();
+
+    while (it != q.end()) {
+        cout << *it << " ";
+        // *it = 10; // Can't - Constant
+        ++it;
+    }
+    cout << endl;
+}
+
 int main() {
     deque<int> q;
     q.push_back(20); // 20
