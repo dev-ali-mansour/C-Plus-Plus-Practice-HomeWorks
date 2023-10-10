@@ -143,5 +143,6 @@ add_executable(HomeWorks
         #        STL/Iterator-Arithmetic.cpp
         #        STL/String-Iterator.cpp
         #        STL/Auto.cpp
-        STL/CPlusPlus11-Iterating-Style.cpp
+        #        STL/CPlusPlus11-Iterating-Style.cpp
+        STL/Vector.cpp
 )
