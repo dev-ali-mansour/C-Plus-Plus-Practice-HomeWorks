@@ -138,5 +138,6 @@ add_executable(HomeWorks
         #        Stack.cpp
         #        STL/Sum-Of-Last-K-Numbers.cpp
         #        STL/Pair.cpp
-        STL/Tuple.cpp
+        #        STL/Tuple.cpp
+        STL/Deque-With-Iterator.cpp
 )
