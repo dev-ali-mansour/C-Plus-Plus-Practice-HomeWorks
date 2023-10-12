@@ -155,5 +155,6 @@ add_executable(HomeWorks
         #        STL/Struct-Comparison.cpp
         #        STL/Unordered-Set.cpp
         #        STL/Map.cpp
-        STL/Map2.cpp
+        #        STL/Map2.cpp
+        STL/Validate-Parentheses.cpp
 )
