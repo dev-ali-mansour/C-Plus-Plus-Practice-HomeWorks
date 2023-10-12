@@ -153,5 +153,6 @@ add_executable(HomeWorks
         #        STL/Set.cpp
         #        STL/MultiSet.cpp
         #        STL/Struct-Comparison.cpp
-        STL/Unordered-Set.cpp
+        #        STL/Unordered-Set.cpp
+        STL/Map.cpp
 )
