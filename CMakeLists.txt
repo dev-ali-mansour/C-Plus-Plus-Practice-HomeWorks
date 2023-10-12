@@ -159,5 +159,6 @@ add_executable(HomeWorks
         #        STL/Validate-Parentheses.cpp
         #        STL/Find-Full-Names.cpp
         #        STL/Max-Sliding_window.cpp
-        STL/Reverse-Queue-Using-Stack.cpp
+        #        STL/Reverse-Queue-Using-Stack.cpp
+        STL/Stack-Based-On-Queue.cpp
 )
