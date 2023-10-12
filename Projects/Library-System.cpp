@@ -1,10 +1,10 @@
 #include <iostream>
 #include <algorithm>
 #include <cassert>
+#include <set>
+#include <vector>
 
 using namespace std;
-const int MAX_BOOKS = 10;
-const int MAX_USERS = 10;
 const int ADD_BOOK = 1;
 const int SEARCH_BOOKS = 2;
 const int PRINT_WHO_BORROWED = 3;
@@ -33,7 +33,7 @@ struct book {
         cin >> id >> name >> total_quantity;
     }
 
-    bool borrow(int user_iD) {
+    bool borrow() {
         if (total_quantity - borrowed_quantity == 0)
             return false;
         ++borrowed_quantity;
@@ -74,13 +74,11 @@ bool compare_book_by_id(const book &a, const book &b) {
 struct user {
     int id;
     string name;
-    int borrowed_books_ids[MAX_BOOKS];
-    int len;
+    set<int> borrowed_books_ids;
 
     user() {
         id = 0;
         name = "";
-        len = 0;
     }
 
     void read() {
@@ -89,41 +87,27 @@ struct user {
     }
 
     void borrow_book(int book_id) {
-        borrowed_books_ids[len++] = book_id;
+        borrowed_books_ids.insert(book_id);
     }
 
     void return_copy(int book_id) {
-        bool removed = false;
-        for (int i = 0; i < len; ++i) {
-            if (borrowed_books_ids[i] == book_id) {
-                // Let's shift the array to the right to remove this book
-                for (int j = i; j < len; ++j)
-                    borrowed_books_ids[j] = borrowed_books_ids[j + 1];
-                removed = true;
-                --len;
-                break;
-            }
-        }
+        auto it = borrowed_books_ids.find(book_id);
 
-        if (!removed)
+        if (it != borrowed_books_ids.end())
+            borrowed_books_ids.erase(it);
+        else
             cout << "User " << name << " never borrowed book id " << book_id << endl;
     }
 
     bool is_borrowed(int book_id) {
-        for (int i = 0; i < len; ++i) {
-            if (borrowed_books_ids[i] == book_id)
-                return true;
-        }
-        return false;
+        auto it = borrowed_books_ids.find(book_id);
+        return it != borrowed_books_ids.end();
     }
 
     void print() {
-        // Sort what he borrowed
-        sort(borrowed_books_ids, borrowed_books_ids + len);
-
         cout << " User " << name << " id " << id << " borrowed books ids : ";
-        for (int i = 0; i < len; ++i) {
-            cout << borrowed_books_ids[i] << " ";
+        for (int book_id: borrowed_books_ids) {
+            cout << book_id << " ";
         }
         cout << endl;
     }
@@ -131,14 +115,8 @@ struct user {
 };
 
 struct library_system {
-    int total_books;
-    book books[MAX_BOOKS];
-    int total_users;
-    user users[MAX_USERS];
-
-    library_system() {
-        total_books = 0, total_users = 0;
-    }
+    vector<book> books;
+    vector<user> users;
 
     void run() {
         cout << "\nLibrary Menu:\n";
@@ -191,7 +169,9 @@ struct library_system {
     }
 
     void add_book() {
-        books[total_books++].read();
+        book b;
+        b.read();
+        books.push_back(b);
     }
 
     void search_books_by_prefix() {
@@ -200,9 +180,9 @@ struct library_system {
         cin >> prefix;
 
         int cnt = 0;
-        for (int i = 0; i < MAX_BOOKS; ++i) {
-            if (books[i].has_prefix(prefix)) {
-                cout << books[i].name << endl;
+        for (auto & book : books) {
+            if (book.has_prefix(prefix)) {
+                cout << book.name << endl;
                 ++cnt;
             }
         }
@@ -223,33 +203,37 @@ struct library_system {
         }
 
         int book_id = books[book_idx].id;
-        for (int i = 0; i < MAX_USERS; ++i) {
-            if (users[i].is_borrowed(book_id)) {
-                cout << users[i].name << endl;
+        for (auto & user : users) {
+            if (user.is_borrowed(book_id)) {
+                cout << user.name << endl;
             }
         }
     }
 
     void print_library_by_id() {
-        sort(books, books + total_books, compare_book_by_id);
-        for (int i = 0; i < total_books; ++i) {
-            books[i].print();
+        sort(books.begin(), books.end(), compare_book_by_id);
+        cout << endl;
+        for (book &b: books) {
+            b.print();
         }
     }
 
     void print_library_by_name() {
-        sort(books, books + total_books, compare_book_by_name);
-        for (int i = 0; i < total_books; ++i) {
-            books[i].print();
+        sort(books.begin(), books.end(), compare_book_by_name);
+        cout << endl;
+        for (book &b: books) {
+            b.print();
         }
     }
 
     void add_user() {
-        users[total_users++].read();
+        user u;
+        u.read();
+        users.push_back(u);
     }
 
     int find_user_idx_by_name(const string &user_name) {
-        for (int i = 0; i < MAX_USERS; ++i) {
+        for (int i = 0; i < (int) books.size(); ++i) {
             if (users[i].name == user_name)
                 return i;
         }
@@ -257,7 +241,7 @@ struct library_system {
     }
 
     int find_book_idx_by_name(const string &book_name) {
-        for (int i = 0; i < MAX_BOOKS; ++i) {
+        for (int i = 0; i < (int) books.size(); ++i) {
             if (books[i].name == book_name)
                 return i;
         }
@@ -290,10 +274,9 @@ struct library_system {
         if (!read_user_name_and_book_name(user_idx, book_idx))
             return;
 
-        int user_id = users[user_idx].id;
         int book_id = books[book_idx].id;
 
-        if (!books[book_idx].borrow(user_id))
+        if (!books[book_idx].borrow())
             cout << "No more copies available right now!\n";
         else
             users[user_idx].borrow_book(book_id);
@@ -310,8 +293,9 @@ struct library_system {
     }
 
     void print_users() {
-        for (int i = 0; i < total_users; ++i) {
-            users[i].print();
+        cout << endl;
+        for (user &u: users) {
+            u.print();
         }
     }
 };
