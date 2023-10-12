@@ -160,5 +160,6 @@ add_executable(HomeWorks
         #        STL/Find-Full-Names.cpp
         #        STL/Max-Sliding_window.cpp
         #        STL/Reverse-Queue-Using-Stack.cpp
-        STL/Stack-Based-On-Queue.cpp
+        #        STL/Stack-Based-On-Queue.cpp
+        STL/Reverse-Number-Using-Stack.cpp
 )
