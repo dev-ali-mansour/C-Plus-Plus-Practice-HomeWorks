@@ -165,4 +165,5 @@ add_executable(HomeWorks
         #        STL/Structured-Binding.cpp
         #        STL/Structure-Binding-With-Struct.cpp
         STL/Structured-Binding-With-Pair.cpp
+        STL/Structured-Binding-With-Tuples.cpp
 )
