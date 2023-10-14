@@ -175,5 +175,6 @@ add_executable(HomeWorks
         #        Writing-Using-Ofstream.cpp
         #        FilesAndStreams/Appending.cpp
         #        FilesAndStreams/Reading-Whole-FileContent.cpp
-        FilesAndStreams/Input-String-Stream.cpp
+        #        FilesAndStreams/Input-String-Stream.cpp
+        FilesAndStreams/Output-String-Stream.cpp
 )
