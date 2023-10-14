@@ -163,4 +163,5 @@ add_executable(HomeWorks
         #        STL/Asteroid-Collision.cpp
         STL/Next-Greater-Num.cpp
         STL/Structured-Binding.cpp
+        STL/Structure-Binding-With-Struct.cpp
 )
