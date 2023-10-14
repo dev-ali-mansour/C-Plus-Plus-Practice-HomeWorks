@@ -169,5 +169,6 @@ add_executable(HomeWorks
         #        STL/Structured-Binging-With-Map.cpp
         #        STL/Structure-Binding-With-Insertion.cpp
         #        STL/More-On-Initialization.cpp
-        STL/Struct-With-Array.cpp
+        #        STL/Struct-With-Array.cpp
+        FilesAndStreams/Read-2-Numbers-And-Sum.cpp
 )
