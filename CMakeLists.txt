@@ -164,6 +164,7 @@ add_executable(HomeWorks
         #        STL/Next-Greater-Num.cpp
         #        STL/Structured-Binding.cpp
         #        STL/Structure-Binding-With-Struct.cpp
-        STL/Structured-Binding-With-Pair.cpp
-        STL/Structured-Binding-With-Tuples.cpp
+        #        STL/Structured-Binding-With-Pair.cpp
+        #        STL/Structured-Binding-With-Tuples.cpp
+        STL/Structured-Binging-With-Map.cpp
 )
