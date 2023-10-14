@@ -162,4 +162,5 @@ add_executable(HomeWorks
         #        STL/Score-Of-Parentheses.cpp
         #        STL/Asteroid-Collision.cpp
         STL/Next-Greater-Num.cpp
+        STL/Structured-Binding.cpp
 )
