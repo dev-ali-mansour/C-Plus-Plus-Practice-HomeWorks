@@ -122,9 +122,8 @@ add_executable(HomeWorks
         #        Struct/Structure-Of_Structure.cpp
         #        Struct/Constructor.cpp
         #        Struct/Queue.cpp
-                Projects/Hospital-System-Using-Struct.cpp
-        STL/Score-Of-Parentheses.cpp
-        #                Projects/Library-System.cpp
+        #        Projects/Hospital-System-Using-Struct.cpp
+        #        Projects/Library-System.cpp
         #        Templates/Generic-Programming-Using-Templates.cpp
         #        Templates/Template-With-Multiple-Types.cpp
         #        Templates/Static-Variable.cpp
@@ -159,5 +158,7 @@ add_executable(HomeWorks
         #        STL/Map2.cpp
         #        STL/Validate-Parentheses.cpp
         #        STL/Find-Full-Names.cpp
-#        STL/Max-Sliding_window.cpp
+        #        STL/Max-Sliding_window.cpp
+        #        STL/Score-Of-Parentheses.cpp
+        STL/Asteroid-Collision.cpp
 )
