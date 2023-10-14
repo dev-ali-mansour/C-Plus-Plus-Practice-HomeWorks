@@ -1,8 +1,9 @@
 #include<iostream>
+
 using namespace std;
 
 int main() {
-    freopen("read_file.txt", "rt", stdin);
+    freopen("/home/alimansour/Training/C++Course/HomeWorks/FilesAndStreams/read_file.txt", "rt", stdin);
 
     int x, y;
     cin >> x >> y;
