@@ -168,5 +168,6 @@ add_executable(HomeWorks
         #        STL/Structured-Binding-With-Tuples.cpp
         #        STL/Structured-Binging-With-Map.cpp
         #        STL/Structure-Binding-With-Insertion.cpp
-        STL/More-On-Initalization.cpp
+        #        STL/More-On-Initialization.cpp
+        STL/Struct-With-Array.cpp
 )
