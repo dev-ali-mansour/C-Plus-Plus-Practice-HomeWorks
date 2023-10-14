@@ -161,7 +161,8 @@ add_executable(HomeWorks
         #        STL/Max-Sliding_window.cpp
         #        STL/Score-Of-Parentheses.cpp
         #        STL/Asteroid-Collision.cpp
-        STL/Next-Greater-Num.cpp
-        STL/Structured-Binding.cpp
-        STL/Structure-Binding-With-Struct.cpp
+        #        STL/Next-Greater-Num.cpp
+        #        STL/Structured-Binding.cpp
+        #        STL/Structure-Binding-With-Struct.cpp
+        STL/Structured-Binding-With-Pair.cpp
 )
