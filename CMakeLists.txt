@@ -166,6 +166,7 @@ add_executable(HomeWorks
         #        STL/Structure-Binding-With-Struct.cpp
         #        STL/Structured-Binding-With-Pair.cpp
         #        STL/Structured-Binding-With-Tuples.cpp
-        STL/Structured-Binging-With-Map.cpp
-        STL/Structure-Binding-With-Insertion.cpp
+        #        STL/Structured-Binging-With-Map.cpp
+        #        STL/Structure-Binding-With-Insertion.cpp
+        STL/More-On-Initalization.cpp
 )
