@@ -160,5 +160,6 @@ add_executable(HomeWorks
         #        STL/Find-Full-Names.cpp
         #        STL/Max-Sliding_window.cpp
         #        STL/Score-Of-Parentheses.cpp
-        STL/Asteroid-Collision.cpp
+        #        STL/Asteroid-Collision.cpp
+        STL/Next-Greater-Num.cpp
 )
