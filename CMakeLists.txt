@@ -173,5 +173,6 @@ add_executable(HomeWorks
         #        FilesAndStreams/Read-2-Numbers-And-Sum.cpp
         #        FilesAndStreams/Reading-Using-Ifstream.cpp
         #        Writing-Using-Ofstream.cpp
-        FilesAndStreams/Appending.cpp
+        #        FilesAndStreams/Appending.cpp
+        FilesAndStreams/Reading-Whole-FileContent.cpp
 )
