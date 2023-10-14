@@ -171,5 +171,6 @@ add_executable(HomeWorks
         #        STL/More-On-Initialization.cpp
         #        STL/Struct-With-Array.cpp
         #        FilesAndStreams/Read-2-Numbers-And-Sum.cpp
-        FilesAndStreams/Reading-Using-Ifstream.cpp
+        #        FilesAndStreams/Reading-Using-Ifstream.cpp
+        Writing-Using-Ofstream.cpp
 )
