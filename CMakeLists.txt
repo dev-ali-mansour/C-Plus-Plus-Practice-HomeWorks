@@ -159,8 +159,20 @@ add_executable(HomeWorks
         #        STL/Validate-Parentheses.cpp
         #        STL/Find-Full-Names.cpp
         #        STL/Max-Sliding_window.cpp
-        #        STL/Reverse-Queue-Using-Stack.cpp
-        #        STL/Stack-Based-On-Queue.cpp
-        #        STL/Reverse-Number-Using-Stack.cpp
-        All-Words-Prefix.cpp
+        #        STL/Score-Of-Parentheses.cpp
+        #        STL/Asteroid-Collision.cpp
+        #        STL/Next-Greater-Num.cpp
+        #        STL/Structured-Binding.cpp
+        #        STL/Structure-Binding-With-Struct.cpp
+        #        STL/Structured-Binding-With-Pair.cpp
+        #        STL/Structured-Binding-With-Tuples.cpp
+        #        STL/Structured-Binging-With-Map.cpp
+        #        STL/Structure-Binding-With-Insertion.cpp
+        #        STL/More-On-Initialization.cpp
+        #        STL/Struct-With-Array.cpp
+        #        FilesAndStreams/Read-2-Numbers-And-Sum.cpp
+        #        FilesAndStreams/Reading-Using-Ifstream.cpp
+        #        Writing-Using-Ofstream.cpp
+        #        FilesAndStreams/Appending.cpp
+        FilesAndStreams/Reading-Whole-FileContent.cpp
 )
