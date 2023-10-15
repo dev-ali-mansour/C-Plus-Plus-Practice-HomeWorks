@@ -159,6 +159,7 @@ add_executable(HomeWorks
         #        STL/Validate-Parentheses.cpp
         #        STL/Find-Full-Names.cpp
         #        STL/Max-Sliding_window.cpp
+        #        STL/All-Words-Prefix.cpp
         #        STL/Score-Of-Parentheses.cpp
         #        STL/Asteroid-Collision.cpp
         #        STL/Next-Greater-Num.cpp
