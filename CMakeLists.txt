@@ -161,5 +161,6 @@ add_executable(HomeWorks
         #        STL/Max-Sliding_window.cpp
         #        STL/Reverse-Queue-Using-Stack.cpp
         #        STL/Stack-Based-On-Queue.cpp
-        STL/Reverse-Number-Using-Stack.cpp
+        #        STL/Reverse-Number-Using-Stack.cpp
+        All-Words-Prefix.cpp
 )
