@@ -11,7 +11,7 @@ int main() {
     if (!append)
         status = ios::in | ios::out | ios::app;      //overwrite
 
-    string path = "/home/alimansour/Training/C++Course/HomeWorks/FilesAndStreams/names.txt";
+    string path = R"(D:\Developing\Projects\C++\HomeWorks\FilesAndStreams\names.txt)";
     fstream file_handler(path.c_str(), status);
 
     if (file_handler.fail()) {

@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    ifstream fin("/home/alimansour/Training/C++Course/HomeWorks/FilesAndStreams/read_file.txt");
+    ifstream fin(R"(D:\Developing\Projects\C++\HomeWorks\FilesAndStreams\read_file.txt)");
 
     if (fin.fail()) {
         cout << "Can't open the file\n";
