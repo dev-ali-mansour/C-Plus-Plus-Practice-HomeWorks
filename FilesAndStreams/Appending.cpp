@@ -9,7 +9,7 @@ int main() {
     auto status = ios::in | ios::out | ios::app;
 
     if (!append)
-        status = ios::in | ios::out | ios::app;      //overwrite
+        status = ios::in | ios::out | ios::trunc;      //overwrite
 
     string path = R"(D:\Developing\Projects\C++\HomeWorks\FilesAndStreams\names.txt)";
     fstream file_handler(path.c_str(), status);
