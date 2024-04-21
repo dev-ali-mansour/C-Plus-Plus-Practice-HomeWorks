@@ -1,11 +1,27 @@
 #include <iostream>
 
 using namespace std;
+
+int menu();
+void read_2_numbers(double &a, double &b);
+void add(double a, double b);
+void subtract(double a, double b);
+void multiply(double a, double b);
+void divide(double a, double b);
+void calculator_system();
+
 const int ADD = 1;
 const int SUBTRACT = 2;
 const int MULTIPLY = 3;
 const int DIVIDE = 4;
 const int EXIT = 5;
+
+
+int main() {
+    calculator_system();
+
+    return 0;
+}
 
 int menu() {
     int choice = -1;
@@ -75,10 +91,4 @@ void calculator_system() {
             divide(a, b);
     }
     cout << "Total Operations: " << total_operations;
-}
-
-int main() {
-    calculator_system();
-
-    return 0;
 }
