@@ -2,14 +2,8 @@
 
 using namespace std;
 
-void change(int a, int b) {
-    a++;
-    b++;
-}
-
-void read(int x, int &y, string &str) {
-    cin >> x >> y >> str;
-}
+void change(int a, int b);
+void read(int x, int &y, string &str);
 
 int main() {
     int a = 1, b = 1;
@@ -21,4 +15,13 @@ int main() {
     cout << a << " " << b << " " << name << endl;
 
     return 0;
+}
+
+void change(int a, int b) {
+    a++;
+    b++;
+}
+
+void read(int x, int &y, string &str) {
+    cin >> x >> y >> str;
 }
