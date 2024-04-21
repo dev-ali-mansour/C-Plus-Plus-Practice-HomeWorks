@@ -2,6 +2,16 @@
 
 using namespace std;
 
+int absolute(int a) ;
+int max_abs(int a, int b);
+
+int main() {
+    cout << max_abs(2, 5) << endl;
+    cout << max_abs(2, -5) << endl;
+
+    return 0;
+}
+
 int absolute(int a) {
     if (a >= 0)
         return a;
@@ -15,11 +25,4 @@ int max_abs(int a, int b) {
     if (a > b)
         return a;
     return b;
-}
-
-int main() {
-    cout << max_abs(2, 5) << endl;
-    cout << max_abs(2, -5) << endl;
-
-    return 0;
 }
