@@ -180,4 +180,5 @@ add_executable(HomeWorks
         #        AskMe/AskMe.cpp
         #        Pointers/pointers1.cpp
         Pointers/Playing-With-Pointers.cpp
+        Pointers/Pointers-With-Other-Types.cpp
 )
