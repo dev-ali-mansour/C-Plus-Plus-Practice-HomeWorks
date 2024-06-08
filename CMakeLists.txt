@@ -177,5 +177,6 @@ add_executable(HomeWorks
         #        FilesAndStreams/Appending.cpp
         #        FilesAndStreams/Reading-Whole-FileContent.cpp
         #        FilesAndStreams/StringStream.cpp
-        AskMe/AskMe.cpp
+        #        AskMe/AskMe.cpp
+        Pointers/pointers1.cpp
 )
