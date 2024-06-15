@@ -181,5 +181,6 @@ add_executable(HomeWorks
         #        Pointers/pointers1.cpp
         #        Pointers/Playing-With-Pointers.cpp
         #        Pointers/Pointers-With-Other-Types.cpp
-        Pointers/Pointer-To-Array.cpp
+        #        Pointers/Pointer-To-Array.cpp
+        Pointers/Offset-Notation.cpp
 )
