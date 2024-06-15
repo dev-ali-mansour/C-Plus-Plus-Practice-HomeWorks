@@ -179,6 +179,7 @@ add_executable(HomeWorks
         #        FilesAndStreams/StringStream.cpp
         #        AskMe/AskMe.cpp
         #        Pointers/pointers1.cpp
-        Pointers/Playing-With-Pointers.cpp
-        Pointers/Pointers-With-Other-Types.cpp
+        #        Pointers/Playing-With-Pointers.cpp
+        #        Pointers/Pointers-With-Other-Types.cpp
+        Pointers/Pointer-To-Array.cpp
 )
