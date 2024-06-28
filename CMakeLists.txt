@@ -183,5 +183,6 @@ add_executable(HomeWorks
         #        Pointers/Pointers-With-Other-Types.cpp
         #        Pointers/Pointer-To-Array.cpp
         #        Pointers/Offset-Notation.cpp
-        Pointers/Pointers-Arithmetic.cpp
+        #        Pointers/Pointers-Arithmetic.cpp
+        Pointers/Iterating-Over-Array.cpp
 )
