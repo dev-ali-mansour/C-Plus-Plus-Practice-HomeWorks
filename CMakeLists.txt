@@ -199,5 +199,6 @@ add_executable(HomeWorks
         #        Pointers/Recursion.cpp
         #        Pointers/Heap-Dynamic-Allocation.cpp
         #        Pointers/Struct-Memory-Leak.cpp
-        Pointers/Destructor.cpp
+        #        Pointers/Destructor.cpp
+        Pointers/Memory-Leak-Dangling-Pointer.cpp
 )
