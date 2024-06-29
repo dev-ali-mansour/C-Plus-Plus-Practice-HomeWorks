@@ -190,6 +190,6 @@ add_executable(HomeWorks
         #        Pointers/Pointer-To-Const.cpp
         #        Pointers/Pass-Pointer-By-Reference.cpp
         #        Pointers/Return-Pointer.cpp
-        Pointers/Pass-Pointer-To-Reference.cpp
+#        Pointers/Pass-Pointer-To-Reference.cpp
         Pointers/Reference-vs-Pointer.cpp
 )
