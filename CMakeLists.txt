@@ -186,6 +186,7 @@ add_executable(HomeWorks
         #        Pointers/Pointers-Arithmetic.cpp
         #        Pointers/Iterating-Over-Array.cpp
         #        Pointers/Iterating-Over-Char-Array.cpp
-        Pointers/Comparing-Pointers.cpp
-        Pointers/Pointer-To-Const.cpp
+        #        Pointers/Comparing-Pointers.cpp
+        #        Pointers/Pointer-To-Const.cpp
+        Pointers/Pass-Pointer-By-Reference.cpp
 )
