@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    ifstream fin("/home/alimansour/Training/C++Course/HomeWorks/FilesAndStreams/read_file.txt");
+    ifstream fin(R"(D:\Developing\Projects\C++\HomeWorks\FilesAndStreams\read_file.txt)");
     if (fin.fail()) {
         cout << "Can't open the file\n";
         return 0;
@@ -13,7 +13,7 @@ int main() {
     fin >> x >> y;
     fin.close();
 
-    ofstream fout("/home/alimansour/Training/C++Course/HomeWorks/FilesAndStreams/my_output.txt");
+    ofstream fout(R"(D:\Developing\Projects\C++\HomeWorks\FilesAndStreams\my_output.txt)");
 
     if (fout.fail()) {
         cout << "Can't open the output file\n";

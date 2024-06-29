@@ -2,6 +2,21 @@
 
 using namespace std;
 
+int read_array(int arr[]);
+bool is_palindrome(int n, const int arr[]);
+
+int main() {
+    int arr[100];
+    int len = read_array(arr);
+
+    if (is_palindrome(len, arr))
+        cout << "YES\n";
+    else
+        cout << "NO\n";
+
+    return 0;
+}
+
 int read_array(int arr[]) {
     int len;
     cin >> len;
@@ -20,16 +35,4 @@ bool is_palindrome(int n, const int arr[]) {
     }
 
     return true;
-}
-
-int main() {
-    int arr[100];
-    int len = read_array(arr);
-
-    if (is_palindrome(len, arr))
-        cout << "YES\n";
-    else
-        cout << "NO\n";
-
-    return 0;
 }

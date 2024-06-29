@@ -2,6 +2,17 @@
 
 using namespace std;
 
+bool is_prime(int num);
+int nth_prime(int n);
+
+int main() {
+
+    for (int i = 1; i < 20; ++i) {
+        cout << nth_prime(i) << " ";
+    }
+    return 0;
+}
+
 bool is_prime(int num) {
     if (num <= 1)
         return false;
@@ -21,12 +32,4 @@ int nth_prime(int n) {
                 return i;
         }
     }
-}
-
-int main() {
-
-    for (int i = 1; i < 20; ++i) {
-        cout << nth_prime(i) << " ";
-    }
-    return 0;
 }

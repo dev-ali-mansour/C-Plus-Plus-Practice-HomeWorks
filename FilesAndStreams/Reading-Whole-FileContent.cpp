@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    string path = "/home/alimansour/Training/C++Course/HomeWorks/FilesAndStreams/names.txt";
+    string path = R"(D:\Developing\Projects\C++\HomeWorks\FilesAndStreams\names.txt)";
     fstream file_handler(path.c_str());
 
     if (file_handler.fail()) {

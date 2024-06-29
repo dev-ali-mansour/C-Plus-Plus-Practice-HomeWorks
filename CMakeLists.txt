@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.26)
+cmake_minimum_required(VERSION 3.27)
 project(HomeWorks)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -159,6 +159,7 @@ add_executable(HomeWorks
         #        STL/Validate-Parentheses.cpp
         #        STL/Find-Full-Names.cpp
         #        STL/Max-Sliding_window.cpp
+        #        STL/All-Words-Prefix.cpp
         #        STL/Score-Of-Parentheses.cpp
         #        STL/Asteroid-Collision.cpp
         #        STL/Next-Greater-Num.cpp
@@ -172,9 +173,19 @@ add_executable(HomeWorks
         #        STL/Struct-With-Array.cpp
         #        FilesAndStreams/Read-2-Numbers-And-Sum.cpp
         #        FilesAndStreams/Reading-Using-Ifstream.cpp
-        #        Writing-Using-Ofstream.cpp
+        #        FilesAndStreams/Writing-Using-Ofstream.cpp
         #        FilesAndStreams/Appending.cpp
         #        FilesAndStreams/Reading-Whole-FileContent.cpp
-        #        FilesAndStreams/Input-String-Stream.cpp
-        FilesAndStreams/Output-String-Stream.cpp
+        #        FilesAndStreams/StringStream.cpp
+        #        AskMe/AskMe.cpp
+        #        Pointers/pointers1.cpp
+        #        Pointers/Playing-With-Pointers.cpp
+        #        Pointers/Pointers-With-Other-Types.cpp
+        #        Pointers/Pointer-To-Array.cpp
+        #        Pointers/Offset-Notation.cpp
+        #        Pointers/Pointers-Arithmetic.cpp
+        #        Pointers/Iterating-Over-Array.cpp
+        #        Pointers/Iterating-Over-Char-Array.cpp
+        Pointers/Comparing-Pointers.cpp
+        Pointers/Pointer-To-Const.cpp
 )
