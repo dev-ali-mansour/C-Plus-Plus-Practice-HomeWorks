@@ -201,4 +201,5 @@ add_executable(HomeWorks
         #        Pointers/Struct-Memory-Leak.cpp
         #        Pointers/Destructor.cpp
         Pointers/Memory-Leak-Dangling-Pointer.cpp
+        Pointers/Preventing-Mistakes.cpp
 )
