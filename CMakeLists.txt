@@ -192,5 +192,6 @@ add_executable(HomeWorks
         #        Pointers/Return-Pointer.cpp
         #        Pointers/Pass-Pointer-To-Reference.cpp
         #        Pointers/Reference-vs-Pointer.cpp
-        Pointers/Dynamic-memory-Allocation.cpp
+        #        Pointers/Dynamic-memory-Allocation.cpp
+        Pointers/Creating-Multiple-Elements.cpp
 )
