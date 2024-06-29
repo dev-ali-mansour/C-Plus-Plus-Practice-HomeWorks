@@ -196,5 +196,6 @@ add_executable(HomeWorks
         #        Pointers/Creating-Multiple-Elements.cpp
         #        Pointers/Pointer-To-Struct.cpp
         #        Pointers/Stack-Overflow.cpp
-        Pointers/Recursion.cpp
+        #        Pointers/Recursion.cpp
+        Pointers/Heap-Dynamic-Allocation.cpp
 )
