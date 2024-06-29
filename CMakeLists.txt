@@ -188,5 +188,6 @@ add_executable(HomeWorks
         #        Pointers/Iterating-Over-Char-Array.cpp
         #        Pointers/Comparing-Pointers.cpp
         #        Pointers/Pointer-To-Const.cpp
-        Pointers/Pass-Pointer-By-Reference.cpp
+        #        Pointers/Pass-Pointer-By-Reference.cpp
+        Pointers/Return-Pointer.cpp
 )
