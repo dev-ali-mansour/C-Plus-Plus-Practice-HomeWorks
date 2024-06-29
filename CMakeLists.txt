@@ -198,5 +198,6 @@ add_executable(HomeWorks
         #        Pointers/Stack-Overflow.cpp
         #        Pointers/Recursion.cpp
         #        Pointers/Heap-Dynamic-Allocation.cpp
-        Pointers/Struct-Memory-Leak.cpp
+        #        Pointers/Struct-Memory-Leak.cpp
+        Pointers/Destructor.cpp
 )
