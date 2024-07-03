@@ -218,5 +218,6 @@ add_executable(HomeWorks
         #        HeadersAndIncludes/UsingKeyword.cpp
         #        HeadersAndIncludes/Using-Namespace.cpp
         #        HeadersAndIncludes/Nested-Namespaces-And-Alias.cpp
-        ExceptionHandling/Throw-Exception.cpp
+        #        ExceptionHandling/Throw-Exception.cpp
+        ExceptionHandling/Vector-AT.cpp
 )
