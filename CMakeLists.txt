@@ -217,5 +217,6 @@ add_executable(HomeWorks
         #        HeadersAndIncludes/Grouping-With-Namespaces.cpp
         #        HeadersAndIncludes/UsingKeyword.cpp
         #        HeadersAndIncludes/Using-Namespace.cpp
-        HeadersAndIncludes/Nested-Namespaces-And-Alias.cpp
+        #        HeadersAndIncludes/Nested-Namespaces-And-Alias.cpp
+        ExceptionHandling/Throw-Exception.cpp
 )
