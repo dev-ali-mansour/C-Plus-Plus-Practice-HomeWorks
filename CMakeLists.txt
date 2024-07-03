@@ -230,5 +230,6 @@ add_executable(HomeWorks
         #        ExceptionHandling/Throw-VS-Throw-e.cpp
         #        ExceptionHandling/noexcept-keyword.cpp
         #        ExceptionHandling/noexcept-with-exception.cpp
-        ExceptionHandling/noexcept-as-an-operator.cpp
+        #        ExceptionHandling/noexcept-as-an-operator.cpp
+        ExceptionHandling/Guess-The-Output.cpp
 )
