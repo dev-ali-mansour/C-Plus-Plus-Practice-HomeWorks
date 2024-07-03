@@ -204,5 +204,6 @@ add_executable(HomeWorks
         #        Pointers/Preventing-Mistakes.cpp
         #        HeadersAndIncludes/include.cpp
         HeadersAndIncludes/sum.h
+        HeadersAndIncludes/sum.cpp
         HeadersAndIncludes/include2.cpp
 )
