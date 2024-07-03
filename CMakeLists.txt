@@ -227,5 +227,6 @@ add_executable(HomeWorks
         #        ExceptionHandling/Nested-Try-Catch.cpp
         #        ExceptionHandling/Stack-Unwinding.cpp
         #        ExceptionHandling/Throwing-In-Constructor-Or-Destructor.cpp
-        ExceptionHandling/Throw-VS-Throw-e.cpp
+        #        ExceptionHandling/Throw-VS-Throw-e.cpp
+        ExceptionHandling/noexcept-keyword.cpp
 )
