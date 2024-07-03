@@ -220,5 +220,6 @@ add_executable(HomeWorks
         #        HeadersAndIncludes/Nested-Namespaces-And-Alias.cpp
         #        ExceptionHandling/Throw-Exception.cpp
         #        ExceptionHandling/Vector-AT.cpp
-        ExceptionHandling/Catching-The-Exception.cpp
+        #        ExceptionHandling/Catching-The-Exception.cpp
+        ExceptionHandling/Multiple-Exception-handling.cpp
 )
