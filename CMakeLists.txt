@@ -203,7 +203,10 @@ add_executable(HomeWorks
         #        Pointers/Memory-Leak-Dangling-Pointer.cpp
         #        Pointers/Preventing-Mistakes.cpp
         #        HeadersAndIncludes/include.cpp
-        HeadersAndIncludes/sum.h
-        HeadersAndIncludes/sum.cpp
-        HeadersAndIncludes/include2.cpp
+        #        HeadersAndIncludes/sum.h
+        #        HeadersAndIncludes/sum.cpp
+        #        HeadersAndIncludes/include2.cpp
+        HeadersAndIncludes/Employee.h
+        HeadersAndIncludes/Employee.cpp
+        HeadersAndIncludes/EmployeeMain.cpp
 )
