@@ -215,5 +215,6 @@ add_executable(HomeWorks
         #        HeadersAndIncludes/CircularRelationships/Employee.cpp
         #        HeadersAndIncludes/CircularRelationships/main.cpp
         #        HeadersAndIncludes/Grouping-With-Namespaces.cpp
-        HeadersAndIncludes/UsingKeyword.cpp
+#        HeadersAndIncludes/UsingKeyword.cpp
+        HeadersAndIncludes/Using-Namespace.cpp
 )
