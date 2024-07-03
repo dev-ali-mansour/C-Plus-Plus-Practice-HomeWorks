@@ -202,5 +202,7 @@ add_executable(HomeWorks
         #        Pointers/Destructor.cpp
         #        Pointers/Memory-Leak-Dangling-Pointer.cpp
         #        Pointers/Preventing-Mistakes.cpp
-        HeadersAndIncludes/include.cpp
+        #        HeadersAndIncludes/include.cpp
+        HeadersAndIncludes/sum.h
+        HeadersAndIncludes/include2.cpp
 )

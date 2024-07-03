@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int sum_1_2(int n) {
+int sum_1_n(int n) {
     int sum = 0;
 
     for (int i = 0; i < n; ++i)
@@ -17,7 +17,7 @@ int main() {
     cout << sqrt(25) << endl;
     vector<int> v;
 
-    cout << sum_1_2(5) << endl;
+    cout << sum_1_n(5) << endl;
 
     return 0;
 }
