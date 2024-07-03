@@ -222,5 +222,6 @@ add_executable(HomeWorks
         #        ExceptionHandling/Vector-AT.cpp
         #        ExceptionHandling/Catching-The-Exception.cpp
         #        ExceptionHandling/Multiple-Exception-handling.cpp
-        ExceptionHandling/Throwing-Integer.cpp
+        #        ExceptionHandling/Throwing-Integer.cpp
+        ExceptionHandling/Catch-Integer.cpp
 )

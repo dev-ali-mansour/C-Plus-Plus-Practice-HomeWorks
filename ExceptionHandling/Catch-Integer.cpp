@@ -17,6 +17,8 @@ int main() {
     int *p = nullptr;
     try {
         int *p = CreateArrayOnMobile(-10);
+    }catch (int &error_code){
+        cout<<"Error Code: "<<error_code;
     } catch (invalid_argument &e) {
         cout << "invalid_argument: " << e.what();
     } catch (runtime_error &e) {

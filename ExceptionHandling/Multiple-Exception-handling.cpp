@@ -22,7 +22,7 @@ int main() {
     } catch (invalid_argument &e) {
         cout << "invalid_argument: " << e.what();
     } catch (runtime_error &e) {
-        cout << "runtime_error" << e.what();
+        cout << "runtime_error: " << e.what();
     } catch (...) {
         cout << "Caught unknown exception type!\n";
     }
