@@ -211,4 +211,7 @@ add_executable(HomeWorks
 #        HeadersAndIncludes/EmployeeMain.cpp
         HeadersAndIncludes/CircularRelationships/Employee.h
         HeadersAndIncludes/CircularRelationships/Department.h
+        HeadersAndIncludes/CircularRelationships/Department.cpp
+        HeadersAndIncludes/CircularRelationships/Employee.cpp
+        HeadersAndIncludes/CircularRelationships/main.cpp
 )

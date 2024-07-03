@@ -7,6 +7,7 @@ struct Department {
     string name;
     vector<Employee> emp;
 
+    Department(string name_);
     void printDepartments();
 };
 

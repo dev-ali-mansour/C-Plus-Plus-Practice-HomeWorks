@@ -3,17 +3,23 @@
 
 #include <iostream>
 #include <vector>
-#include "Department.h"
+//#include "Department.h"   Don't
 
 using namespace std;
 
-struct Employee{
+struct Department;
+
+struct Employee {
     string name;
-    vector<Department*>deps;
+    vector<Department *> deps;
 
     //
     // Declare
-    Employee(string name_);
+    Employee(string name_,vector<Department*>deps_);
+
     void print();
 };
+
+extern Employee *emp_glob;
+
 #endif //HOMEWORKS_EMPLOYEE_H
