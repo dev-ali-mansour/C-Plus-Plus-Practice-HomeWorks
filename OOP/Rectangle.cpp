@@ -20,7 +20,7 @@ double Rectangle::computePerimeter() {
 }
 
 //Setters & Getters
-double Rectangle::getWidth() {
+double Rectangle::getWidth() const {
     return width;
 }
 
@@ -28,7 +28,7 @@ void Rectangle::setWidth(long width) {
     this->width = width;
 }
 
-double Rectangle::getHeight() {
+double Rectangle::getHeight() const {
     return height;
 }
 

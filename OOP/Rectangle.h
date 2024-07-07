@@ -15,11 +15,11 @@ public:
 
     double computePerimeter();
 
-    double getWidth();
+    double getWidth() const;
 
     void setWidth(long width);
 
-    double getHeight();
+    double getHeight() const;
 
     void setHeight(long height);
 };
