@@ -17,7 +17,7 @@ public:
 
     double getWidth();
 
-    void setWidth(long width_);
+    void setWidth(long width);
 
     double getHeight();
 
