@@ -232,5 +232,6 @@ add_executable(HomeWorks
         #        ExceptionHandling/noexcept-with-exception.cpp
         #        ExceptionHandling/noexcept-as-an-operator.cpp
         #        ExceptionHandling/Guess-The-Output.cpp
-        ExceptionHandling/Nothrow.cpp
+        #        ExceptionHandling/Nothrow.cpp
+        OOP/Quote.cpp
 )
