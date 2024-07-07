@@ -1,58 +1,37 @@
 #include <iostream>
+#include "Rectangle.h"
 
 using namespace std;
 
-class Rectangle {
-private:
-    double width;
-    double height;
+Rectangle::Rectangle() {
+    width = height = 0;
+}
 
-public:
-    Rectangle() {
-        width = height = 0;
-    }
+Rectangle::Rectangle(double width_, double height_) {
+    width = width_, height = height_;
+}
 
-    Rectangle(double width_, double height_) {
-        width = width_, height = height_;
-    }
+double Rectangle::computeArea() {
+    return width * height;
+}
 
-    double computeArea() {
-        return width * height;
-    }
+double Rectangle::computePerimeter() {
+    return 2 * (width + height);
+}
 
-    double computePerimeter() {
-        return 2 * (width + height);
-    }
+//Setters & Getters
+double Rectangle::getWidth() {
+    return width;
+}
 
-    // Setters & Getters
-    double getWidth() {
-        return width;
-    }
+void Rectangle::setWidth(long width) {
+    this->width = width;
+}
 
-    void setWidth(long width_) {
-        width = width_;
-    }
+double Rectangle::getHeight() {
+    return height;
+}
 
-    double getHeight() {
-        return height;
-    }
-
-    void setHeight(long height_) {
-        height = height_;
-    }
-};
-
-int main() {
-    Rectangle r1;
-    r1.setWidth(5);
-    r1.setHeight(10);
-    cout << r1.computeArea() << endl;   // 50
-
-    Rectangle r2(10, 3);
-    cout << r2.computeArea() << endl;   // 30
-    r2.setWidth(0);
-    cout << r2.computeArea() << endl;   // 0
-
-
-    return 0;
+void Rectangle::setHeight(long height) {
+    this->height = height;
 }
