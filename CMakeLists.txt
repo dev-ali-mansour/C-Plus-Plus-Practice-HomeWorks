@@ -234,7 +234,10 @@ add_executable(HomeWorks
         #        ExceptionHandling/Guess-The-Output.cpp
         #        ExceptionHandling/Nothrow.cpp
         #        OOP/Quote.cpp
-        OOP/Rectangle.h
-        OOP/Rectangle.cpp
-        OOP/Main.cpp
+        #        OOP/Rectangle.h
+        #        OOP/Rectangle.cpp
+        #        OOP/Main.cpp
+        OOP/Invoice.cpp
+        OOP/Invoice.h
+        OOP/InvoiceMain.cpp
 )
