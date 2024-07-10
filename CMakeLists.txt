@@ -243,5 +243,6 @@ add_executable(HomeWorks
         #        ASkMe-OOP/AskMe.cpp
         #        Online-Book-Reader/main.cpp
         #        Inheritance/Inheritance1.cpp
-        Inheritance/Inheritance2.cpp
+        #        Inheritance/Inheritance2.cpp
+        Inheritance/ProtectedAccessModifier.cpp
 )
