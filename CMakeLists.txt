@@ -255,4 +255,5 @@ add_executable(HomeWorks
         #        Inheritance/Inheriting-Constructors.cpp
         #        Inheritance/Prevent-Class-Inheritance.cpp
         Inheritance/Overload-vs-Override.cpp
+        Inheritance/Private-Protected-Inheritance.cpp
 )
