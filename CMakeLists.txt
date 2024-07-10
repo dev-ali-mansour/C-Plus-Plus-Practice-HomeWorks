@@ -241,5 +241,20 @@ add_executable(HomeWorks
         #        OOP/Invoice.h
         #        OOP/InvoiceMain.cpp
         #        ASkMe-OOP/AskMe.cpp
-        Online-Book-Reader/main.cpp
+        #        Online-Book-Reader/main.cpp
+        #        Inheritance/Inheritance1.cpp
+        #        Inheritance/Inheritance2.cpp
+        #        Inheritance/ProtectedAccessModifier.cpp
+        #        Inheritance/Multiple-Inheritance.cpp
+        #        Inheritance/Multilevel-Inheritance.cpp
+        #        Inheritance/Homework1.cpp
+        #        Inheritance/HomeWork2.cpp
+        #        Inheritance/HW1-More-Features.cpp
+        #        Inheritance/Constructors-Destructors.cpp
+        #        Inheritance/Member-Function-Override.cpp
+        #        Inheritance/Inheriting-Constructors.cpp
+        #        Inheritance/Prevent-Class-Inheritance.cpp
+        #        Inheritance/Overload-vs-Override.cpp
+        #        Inheritance/Private-Protected-Inheritance.cpp
+        Inheritance/STL-Exception-Hierarchy.cpp
 )
