@@ -253,4 +253,5 @@ add_executable(HomeWorks
         #        Inheritance/Constructors-Destructors.cpp
         #        Inheritance/Member-Function-Override.cpp
         Inheritance/Inheriting-Constructors.cpp
+        Inheritance/Prevent-Class-Inheritance.cpp
 )
