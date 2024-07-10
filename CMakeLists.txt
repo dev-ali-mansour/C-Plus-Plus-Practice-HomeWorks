@@ -248,4 +248,5 @@ add_executable(HomeWorks
         #        Inheritance/Multiple-Inheritance.cpp
         #        Inheritance/Multilevel-Inheritance.cpp
         Inheritance/Homework1.cpp
+        Inheritance/HomeWork2.cpp
 )
