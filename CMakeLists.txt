@@ -242,5 +242,6 @@ add_executable(HomeWorks
         #        OOP/InvoiceMain.cpp
         #        ASkMe-OOP/AskMe.cpp
         #        Online-Book-Reader/main.cpp
-        Inheritance/Inheritance1.cpp
+        #        Inheritance/Inheritance1.cpp
+        Inheritance/Inheritance2.cpp
 )
