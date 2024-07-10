@@ -246,5 +246,6 @@ add_executable(HomeWorks
         #        Inheritance/Inheritance2.cpp
         #        Inheritance/ProtectedAccessModifier.cpp
         #        Inheritance/Multiple-Inheritance.cpp
-        Inheritance/Multilevel-Inheritance.cpp
+        #        Inheritance/Multilevel-Inheritance.cpp
+        Inheritance/Homework1.cpp
 )
