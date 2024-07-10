@@ -244,5 +244,6 @@ add_executable(HomeWorks
         #        Online-Book-Reader/main.cpp
         #        Inheritance/Inheritance1.cpp
         #        Inheritance/Inheritance2.cpp
-        Inheritance/ProtectedAccessModifier.cpp
+        #        Inheritance/ProtectedAccessModifier.cpp
+        Inheritance/Multiple-Inheritance.cpp
 )
