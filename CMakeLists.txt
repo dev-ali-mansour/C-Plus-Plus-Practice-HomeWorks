@@ -258,5 +258,6 @@ add_executable(HomeWorks
         #        Inheritance/Private-Protected-Inheritance.cpp
         #        Inheritance/STL-Exception-Hierarchy.cpp
         #        Polymorphism/Polymorphism1.cpp
-        Polymorphism/Virtual-Function.cpp
+        #        Polymorphism/Virtual-Function.cpp
+        Polymorphism/polymorphism2.cpp
 )
