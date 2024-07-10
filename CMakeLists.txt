@@ -254,6 +254,7 @@ add_executable(HomeWorks
         #        Inheritance/Member-Function-Override.cpp
         #        Inheritance/Inheriting-Constructors.cpp
         #        Inheritance/Prevent-Class-Inheritance.cpp
-        Inheritance/Overload-vs-Override.cpp
-        Inheritance/Private-Protected-Inheritance.cpp
+        #        Inheritance/Overload-vs-Override.cpp
+        #        Inheritance/Private-Protected-Inheritance.cpp
+        Inheritance/STL-Exception-Hierarchy.cpp
 )
