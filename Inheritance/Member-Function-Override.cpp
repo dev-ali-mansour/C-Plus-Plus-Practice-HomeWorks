@@ -27,5 +27,7 @@ int main() {
     B *b2 = new B();
     cout << b2->getValue() << " " << b2->getString() << endl;   // 20 Hello
 
+    delete b2;
+
     return 0;
 }
