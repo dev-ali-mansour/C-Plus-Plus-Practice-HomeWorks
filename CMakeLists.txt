@@ -250,6 +250,7 @@ add_executable(HomeWorks
         #        Inheritance/Homework1.cpp
         #        Inheritance/HomeWork2.cpp
         #        Inheritance/HW1-More-Features.cpp
-#        Inheritance/Constructors-Destructors.cpp
-        Inheritance/Member-Function-Override.cpp
+        #        Inheritance/Constructors-Destructors.cpp
+        #        Inheritance/Member-Function-Override.cpp
+        Inheritance/Inheriting-Constructors.cpp
 )
