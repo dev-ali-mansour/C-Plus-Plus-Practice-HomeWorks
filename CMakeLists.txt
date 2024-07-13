@@ -262,5 +262,6 @@ add_executable(HomeWorks
         #        Polymorphism/polymorphism2.cpp
         #        Polymorphism/Polymorphism3.cpp
         #        Polymorphism/Package-Delivery.cpp
-        Polymorphism/ImageEditor.cpp
+        #        Polymorphism/ImageEditor.cpp
+        Polymorphism/Polymorphism-Tips.cpp
 )
