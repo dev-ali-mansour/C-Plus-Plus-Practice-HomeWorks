@@ -64,3 +64,8 @@ int main() {
 
     cout << process2(v1) << " " << process2(v2);  // 10 10
 }
+
+// If data type affect the behaviour use virtual function.
+// Same code and different behaviour process(Rectangle) vs process(Circle)
+// If it doesn't affect the behaviour use template
+// Same code & behaviour stack<int> vs stack<string>
