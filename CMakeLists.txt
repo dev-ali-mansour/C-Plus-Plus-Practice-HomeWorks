@@ -271,5 +271,6 @@ add_executable(HomeWorks
         #        Polymorphism/DownCasting.cpp
         #        Operator-Overloading/Adding-Operator+.cpp
         #        Operator-Overloading/Adding-Operator+-Outside-Class.cpp
-        Operator-Overloading/Unary-Operator.cpp
+        #        Operator-Overloading/Unary-Operator.cpp
+        Operator-Overloading/Subscript-Operator.cpp
 )
