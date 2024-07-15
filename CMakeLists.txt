@@ -274,5 +274,6 @@ add_executable(HomeWorks
         #        Operator-Overloading/Unary-Operator.cpp
         #        Operator-Overloading/Subscript-Operator.cpp
         #        Operator-Overloading/Subscript-Operator-Set-Get.cpp
-        Operator-Overloading/Relational-Operating-Overloading.cpp
+        #        Operator-Overloading/Relational-Operating-Overloading.cpp
+        Operator-Overloading/HW1-Adding-Vectors.cpp
 )
