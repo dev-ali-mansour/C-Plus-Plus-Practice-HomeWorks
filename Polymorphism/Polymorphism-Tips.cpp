@@ -33,4 +33,4 @@ int main() {
 
 // If overriding a method, Use override keyword. So the compiler verifies in base class
 // virtual function==> Provide virtual destructor to avoid memory leak
-// If a fuction is virtual from base class, always mark it as virtual derived.
+// If a function is virtual from base class, always mark it as virtual derived.
