@@ -269,5 +269,6 @@ add_executable(HomeWorks
         #        Polymorphism/Virtual-Function-vs-Template.cpp
         #        Polymorphism/Device-Driver.cpp
         #        Polymorphism/DownCasting.cpp
-        Adding-Operator+.cpp
+        #        Adding-Operator+.cpp
+        Adding-Operator+-Outside-Class.cpp
 )
