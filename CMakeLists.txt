@@ -278,5 +278,6 @@ add_executable(HomeWorks
         #        Operator-Overloading/HW1-Adding-Vectors.cpp
         #        Operator-Overloading/HW2-Multiplying-String.cpp
         #        Operator-Overloading/HW3-Ordering-Pairs.cpp
-        Operator-Overloading/HW4-Ordering-Named-Pairs.cpp
+        #        Operator-Overloading/HW4-Ordering-Named-Pairs.cpp
+        Operator-Overloading/HW1_Operator&&.cpp
 )
