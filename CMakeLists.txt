@@ -286,5 +286,6 @@ add_executable(HomeWorks
         #        Operator-Overloading/Increment-Prefix-Postfix.cpp
         #        Operator-Overloading/Input-Output-Operator-Overloading.cpp
         #        Operator-Overloading/Input-Output-Operator-Overloading2.cpp
-        Operator-Overloading/Input-Output-Operator-Overloading3.cpp
+        #        Operator-Overloading/Input-Output-Operator-Overloading3.cpp
+        Operator-Overloading/Conversions-In-Operator-Overloading.cpp
 )
