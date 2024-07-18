@@ -4,6 +4,8 @@
 using namespace std;
 
 class Double {
+    double value;
+
 public:
     Double(double val) : value(val) {}
 
@@ -14,8 +16,6 @@ public:
     bool operator<(const Double& other) const {
         return value < other.value;
     }
-
-    double value;
 };
 
 
