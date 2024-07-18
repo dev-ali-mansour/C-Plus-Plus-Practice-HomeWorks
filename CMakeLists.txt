@@ -283,7 +283,8 @@ add_executable(HomeWorks
         #        Operator-Overloading/HW2-Our-Map.cpp
         #        Operator-Overloading/HW3-Double.cpp
         #        Operator-Overloading/HW4-ChessBoard.cpp
-#        Operator-Overloading/Increment-Prefix-Postfix.cpp
-#        Operator-Overloading/Input-Output-Operator-Overloading.cpp
-        Operator-Overloading/Input-Output-Operator-Overloading2.cpp
+        #        Operator-Overloading/Increment-Prefix-Postfix.cpp
+        #        Operator-Overloading/Input-Output-Operator-Overloading.cpp
+        #        Operator-Overloading/Input-Output-Operator-Overloading2.cpp
+        Operator-Overloading/Input-Output-Operator-Overloading3.cpp
 )
