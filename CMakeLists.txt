@@ -281,6 +281,7 @@ add_executable(HomeWorks
         #        Operator-Overloading/HW4-Ordering-Named-Pairs.cpp
         #        Operator-Overloading/HW1_Operator&&.cpp
         #        Operator-Overloading/HW2-Our-Map.cpp
-#        Operator-Overloading/HW3-Double.cpp
-        Operator-Overloading/HW4-ChessBoard.cpp
+        #        Operator-Overloading/HW3-Double.cpp
+        #        Operator-Overloading/HW4-ChessBoard.cpp
+        Operator-Overloading/Increment-Prefix-Postfix.cpp
 )
