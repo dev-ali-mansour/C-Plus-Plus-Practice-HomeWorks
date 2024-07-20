@@ -293,5 +293,6 @@ add_executable(HomeWorks
         #        Expedia/expedia_main.cpp
         #        Smart-Pointers/Unique-Pointers1.cpp
         #        Smart-Pointers/Copy-Constructor-vs-Moving.cpp
-        Smart-Pointers/Addresses.cpp
+        #        Smart-Pointers/Addresses.cpp
+        Smart-Pointers/Pass-To-Function.cpp
 )
