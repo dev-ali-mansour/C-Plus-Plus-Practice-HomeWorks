@@ -290,6 +290,7 @@ add_executable(HomeWorks
         #        Operator-Overloading/Conversions-In-Operator-Overloading.cpp
         #        Operator-Overloading/Conversions-In-Operator-Overloading2.cpp
         #        Operator-Overloading/Assignment-Operator-Overloading.cpp
-        Expedia/expedia_main.cpp
-        Smart-Pointers/Unique-Pointers1.cpp
+        #        Expedia/expedia_main.cpp
+        #        Smart-Pointers/Unique-Pointers1.cpp
+        Smart-Pointers/Copy-Constructor-vs-Moving.cpp
 )
