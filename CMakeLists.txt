@@ -298,4 +298,5 @@ add_executable(HomeWorks
         #        Smart-Pointers/Return-From-Function.cpp
         #        Smart-Pointers/make_unique-Helper-Function.cpp
         Smart-Pointers/Pointer-To-Array.cpp
+        Smart-Pointers/Unique-Pointers-With-Vector.cpp
 )
