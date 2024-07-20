@@ -295,5 +295,6 @@ add_executable(HomeWorks
         #        Smart-Pointers/Copy-Constructor-vs-Moving.cpp
         #        Smart-Pointers/Addresses.cpp
         #        Smart-Pointers/Pass-To-Function.cpp
-        Smart-Pointers/Return-From-Function.cpp
+        #        Smart-Pointers/Return-From-Function.cpp
+        Smart-Pointers/make_unique-Helper-Function.cpp
 )
