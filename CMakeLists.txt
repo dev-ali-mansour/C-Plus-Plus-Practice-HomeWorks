@@ -299,5 +299,9 @@ add_executable(HomeWorks
         #        Smart-Pointers/make_unique-Helper-Function.cpp
         #        Smart-Pointers/Pointer-To-Array.cpp
         #        Smart-Pointers/Unique-Pointers-With-Vector.cpp
-        Smart-Pointers/Unique-Pointers-Release.cpp
+        #        Smart-Pointers/Unique-Pointers-Release.cpp
+        #        Smart-Pointers/Shared-Pointers.cpp
+        #        Smart-Pointers/Shared-count.cpp
+        #        Smart-Pointers/Shared-Pointers-With-Vector.cpp
+        Smart-Pointers/DownCasting-Shared-vs-Unique.cpp
 )
