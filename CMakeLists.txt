@@ -307,5 +307,6 @@ add_executable(HomeWorks
         #        Smart-Pointers/Circular-Dependency.cpp
         #        Smart-Pointers/Using-Weak-Pointer.cpp
         #        Smart-Pointers/Weak-Pointer-Lock-Expired.cpp
-        Smart-Pointers/Weak-Pointer-Concurrency-Issue.cpp
+        #        Smart-Pointers/Weak-Pointer-Concurrency-Issue.cpp
+        Smart-Pointers/Weak-Pointer-Concurrency-Issue-Fixed.cpp
 )
