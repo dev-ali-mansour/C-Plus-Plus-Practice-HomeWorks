@@ -311,6 +311,7 @@ add_executable(HomeWorks
         #        Smart-Pointers/Weak-Pointer-Concurrency-Issue-Fixed.cpp
         #        Smart-Pointers/Weak-Pointer-Concurrency-Proper-Way.cpp
         #        Smart-Pointers/Custom-Deleter-For-Shared-Pointer.cpp
-        Smart-Pointers/Legacy-Code.cpp
-        Smart-Pointers/Shared-Pointer-To-Array.cpp
+        #        Smart-Pointers/Legacy-Code.cpp
+        #        Smart-Pointers/Shared-Pointer-To-Array.cpp
+        Smart-Pointers/Shared-Pointer-To-Array-Generic.cpp
 )
