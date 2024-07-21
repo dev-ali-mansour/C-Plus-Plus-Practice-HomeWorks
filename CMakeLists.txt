@@ -315,4 +315,5 @@ add_executable(HomeWorks
         #        Smart-Pointers/Shared-Pointer-To-Array.cpp
         #        Smart-Pointers/Shared-Pointer-To-Array-Generic.cpp
         Smart-Pointers/Custom-Deleter-For-Unique-Pointer.cpp
+        Smart-Pointers/decltype.cpp
 )
