@@ -306,5 +306,6 @@ add_executable(HomeWorks
         #        Smart-Pointers/DownCasting-Shared-vs-Unique.cpp
         #        Smart-Pointers/Circular-Dependency.cpp
         #        Smart-Pointers/Using-Weak-Pointer.cpp
-        Smart-Pointers/Weak-Pointer-Lock-Expired.cpp
+        #        Smart-Pointers/Weak-Pointer-Lock-Expired.cpp
+        Smart-Pointers/Weak-Pointer-Concurrency-Issue.cpp
 )
