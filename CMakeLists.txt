@@ -322,5 +322,6 @@ add_executable(HomeWorks
         #        More-On-STL/Any-Of.cpp
         #        More-On-STL/Max-Element.cpp
         #        More-On-STL/Find-If.cpp
-        More-On-STL/Count.cpp
+        #        More-On-STL/Count.cpp
+        More-On-STL/STD-Count.cpp
 )
