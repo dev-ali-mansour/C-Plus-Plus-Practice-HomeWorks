@@ -339,5 +339,6 @@ add_executable(HomeWorks
         #        More-On-STL/Container-Adaptors.cpp
         #        More-On-STL/Stream-Iterators.cpp
         #        Modern-Wrapper-Types/Optional1.cpp
-        Modern-Wrapper-Types/Optional2.cpp
+        #        Modern-Wrapper-Types/Optional2.cpp
+        Modern-Wrapper-Types/Optional3.cpp
 )
