@@ -332,4 +332,5 @@ add_executable(HomeWorks
         #        More-On-STL/Rotate-Shuffle.cpp
         #        More-On-STL/Binary-Search.cpp
         More-On-STL/Set-Operations.cpp
+        More-On-STL/Array.cpp
 )
