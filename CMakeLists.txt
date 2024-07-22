@@ -329,5 +329,6 @@ add_executable(HomeWorks
         #        More-On-STL/ForeEach.cpp
         #        More-On-STL/Accumulate.cpp
         #        More-On-STL/Adjacent-Difference.cpp
-        More-On-STL/Rotate-Shuffle.cpp
+        #        More-On-STL/Rotate-Shuffle.cpp
+        More-On-STL/Binary-Search.cpp
 )
