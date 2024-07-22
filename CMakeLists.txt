@@ -320,5 +320,6 @@ add_executable(HomeWorks
         #        Smart-Pointers/Custom-Deleter-For-Unique-Pointer-Typedef.cpp
         #        Smart-Pointers/Different-Memory-Allocations.cpp
         #        More-On-STL/Any-Of.cpp
-        More-On-STL/Max-Element.cpp
+        #        More-On-STL/Max-Element.cpp
+        More-On-STL/Find-If.cpp
 )
