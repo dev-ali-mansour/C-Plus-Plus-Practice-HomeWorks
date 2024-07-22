@@ -333,6 +333,7 @@ add_executable(HomeWorks
         #        More-On-STL/Binary-Search.cpp
         #        More-On-STL/Set-Operations.cpp
         #        More-On-STL/Array.cpp
-#        More-On-STL/List.cpp
-        More-On-STL/Forward-List.cpp
+        #        More-On-STL/List.cpp
+        #        More-On-STL/Forward-List.cpp
+        More-On-STL/Valarray.cpp
 )
