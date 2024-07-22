@@ -338,8 +338,8 @@ add_executable(HomeWorks
         #        More-On-STL/Valarray.cpp
         #        More-On-STL/Container-Adaptors.cpp
         #        More-On-STL/Stream-Iterators.cpp
-        #        Modern-Wrapper-Types/Optional1.cpp
-        #        Modern-Wrapper-Types/Optional2.cpp
-        #        Modern-Wrapper-Types/Optional3.cpp
-        Modern-Wrapper-Types/Optional4.cpp
+        #        Modern-Wrapper-Types/Optional1-1.cpp
+        #        Modern-Wrapper-Types/Optional1-2.cpp
+        #        Modern-Wrapper-Types/Optional1-3.cpp
+        Modern-Wrapper-Types/Optional1-4.cpp
 )
