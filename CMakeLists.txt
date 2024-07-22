@@ -324,6 +324,7 @@ add_executable(HomeWorks
         #        More-On-STL/Find-If.cpp
         #        More-On-STL/Count.cpp
         #        More-On-STL/STD-Count.cpp
-        More-On-STL/Replace-If.cpp
-        More-On-STL/Search.cpp
+        #        More-On-STL/Replace-If.cpp
+        #        More-On-STL/Search.cpp
+        More-On-STL/ForeEach.cpp
 )
