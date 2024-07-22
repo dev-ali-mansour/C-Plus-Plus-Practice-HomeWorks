@@ -335,5 +335,6 @@ add_executable(HomeWorks
         #        More-On-STL/Array.cpp
         #        More-On-STL/List.cpp
         #        More-On-STL/Forward-List.cpp
-        More-On-STL/Valarray.cpp
+        #        More-On-STL/Valarray.cpp
+        More-On-STL/Container-Adaptors.cpp
 )
