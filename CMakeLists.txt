@@ -366,5 +366,7 @@ add_executable(HomeWorks
         #        Modern-Wrapper-Types/Any3.cpp
         #        Array-Of-Pointers/01.cpp
         #        Array-Of-Pointers/02.cpp
-        Array-Of-Pointers/03.cpp
+        #        Array-Of-Pointers/03.cpp
+        #        Array-Of-Pointers/04.cpp
+        More-On-Pointers/Void-Pointer.cpp
 )
