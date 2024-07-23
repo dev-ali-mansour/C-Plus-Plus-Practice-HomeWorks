@@ -372,5 +372,6 @@ add_executable(HomeWorks
         #        More-On-Pointers/Function-Pointer/01.cpp
         #        More-On-Pointers/Function-Pointer/02.cpp
         #        More-On-Pointers/Function-Pointer/03.cpp
-        More-On-Pointers/Function-Pointer/04.cpp
+        #        More-On-Pointers/Function-Pointer/04.cpp
+        More-On-Pointers/Function-Pointer/05.cpp
 )
