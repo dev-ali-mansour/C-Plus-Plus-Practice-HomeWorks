@@ -365,5 +365,6 @@ add_executable(HomeWorks
         #        Modern-Wrapper-Types/Any2.cpp
         #        Modern-Wrapper-Types/Any3.cpp
         #        Array-Of-Pointers/01.cpp
-        Array-Of-Pointers/02.cpp
+        #        Array-Of-Pointers/02.cpp
+        Array-Of-Pointers/03.cpp
 )
