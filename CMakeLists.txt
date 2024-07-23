@@ -353,5 +353,6 @@ add_executable(HomeWorks
         #        Modern-Wrapper-Types/Optional3-4.cpp
         #        Modern-Wrapper-Types/Optional3-5.cpp
         #        Modern-Wrapper-Types/Variant1.cpp
-        Modern-Wrapper-Types/Variant2.cpp
+        #        Modern-Wrapper-Types/Variant2.cpp
+        Modern-Wrapper-Types/Variant3.cpp
 )
